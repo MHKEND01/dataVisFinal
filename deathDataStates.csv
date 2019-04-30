@@ -1,0 +1,766 @@
+ICD-10 113 Cause List,ICD-10 113 Cause List Code,State,State Code,Deaths,Population,Crude Rate,Percentage
+#Septicemia (A40-A41),GR113-010,Alabama,1,16605,88891578,18.7,0.01868006
+#Septicemia (A40-A41),GR113-010,Alaska,2,591,13100743,4.5,0.004511195
+#Septicemia (A40-A41),GR113-010,Arizona,4,8459,116207661,7.3,0.00727921
+#Septicemia (A40-A41),GR113-010,Arkansas,5,9432,54119666,17.4,0.017428045
+#Septicemia (A40-A41),GR113-010,California,6,21659,697268717,3.1,0.003106263
+#Septicemia (A40-A41),GR113-010,Colorado,8,6732,93127301,7.2,0.007228815
+#Septicemia (A40-A41),GR113-010,Connecticut,9,10920,67016484,16.3,0.016294499
+#Septicemia (A40-A41),GR113-010,Delaware,10,2432,16604497,14.6,0.014646635
+#Septicemia (A40-A41),GR113-010,District of Columbia,11,1877,11515629,16.3,0.016299587
+#Septicemia (A40-A41),GR113-010,Florida,12,37301,349255045,10.7,0.010680161
+#Septicemia (A40-A41),GR113-010,Georgia,13,26802,177534097,15.1,0.015096818
+#Septicemia (A40-A41),GR113-010,Hawaii,15,2676,25247923,10.6,0.010598892
+#Septicemia (A40-A41),GR113-010,Idaho,16,1457,28525825,5.1,0.005107652
+#Septicemia (A40-A41),GR113-010,Illinois,17,36037,241233049,14.9,0.014938666
+#Septicemia (A40-A41),GR113-010,Indiana,18,17441,121339207,14.4,0.014373755
+#Septicemia (A40-A41),GR113-010,Iowa,19,4720,57386432,8.2,0.008224941
+#Septicemia (A40-A41),GR113-010,Kansas,20,6076,53312917,11.4,0.011396863
+#Septicemia (A40-A41),GR113-010,Kentucky,21,13091,80960850,16.2,0.016169544
+#Septicemia (A40-A41),GR113-010,Louisiana,22,16254,86182287,18.9,0.018860024
+#Septicemia (A40-A41),GR113-010,Maine,23,2557,25013975,10.2,0.010222286
+#Septicemia (A40-A41),GR113-010,Maryland,24,18432,108164436,17,0.017040721
+#Septicemia (A40-A41),GR113-010,Massachusetts,25,16551,124233202,13.3,0.013322525
+#Septicemia (A40-A41),GR113-010,Michigan,26,19895,189137712,10.5,0.010518791
+#Septicemia (A40-A41),GR113-010,Minnesota,27,6059,99446183,6.1,0.006092743
+#Septicemia (A40-A41),GR113-010,Mississippi,28,10635,55669094,19.1,0.019103957
+#Septicemia (A40-A41),GR113-010,Missouri,29,14212,111755457,12.7,0.012717052
+#Septicemia (A40-A41),GR113-010,Montana,30,1595,18443327,8.6,0.008648114
+#Septicemia (A40-A41),GR113-010,Nebraska,31,2506,34276767,7.3,0.007311075
+#Septicemia (A40-A41),GR113-010,Nevada,32,6018,48335386,12.5,0.012450506
+#Septicemia (A40-A41),GR113-010,New Hampshire,33,1927,24717648,7.8,0.007796049
+#Septicemia (A40-A41),GR113-010,New Jersey,34,34564,165736728,20.9,0.020854762
+#Septicemia (A40-A41),GR113-010,New Mexico,35,3354,37679448,8.9,0.008901404
+#Septicemia (A40-A41),GR113-010,New York,36,44298,367517797,12.1,0.012053294
+#Septicemia (A40-A41),GR113-010,North Carolina,37,24398,174209369,14,0.014004987
+#Septicemia (A40-A41),GR113-010,North Dakota,38,976,12907379,7.6,0.007561566
+#Septicemia (A40-A41),GR113-010,Ohio,39,30289,218537270,13.9,0.013859878
+#Septicemia (A40-A41),GR113-010,Oklahoma,40,8364,69889751,12,0.01196742
+#Septicemia (A40-A41),GR113-010,Oregon,41,3915,71265198,5.5,0.005493565
+#Septicemia (A40-A41),GR113-010,Pennsylvania,42,45675,238926197,19.1,0.019116782
+#Septicemia (A40-A41),GR113-010,Rhode Island,44,2392,20087963,11.9,0.011907628
+#Septicemia (A40-A41),GR113-010,South Carolina,45,13112,85228949,15.4,0.015384444
+#Septicemia (A40-A41),GR113-010,South Dakota,46,1325,15276970,8.7,0.008673186
+#Septicemia (A40-A41),GR113-010,Tennessee,47,13408,117660805,11.4,0.011395469
+#Septicemia (A40-A41),GR113-010,Texas,48,58097,461846329,12.6,0.012579292
+#Septicemia (A40-A41),GR113-010,Utah,49,2576,50203457,5.1,0.005131121
+#Septicemia (A40-A41),GR113-010,Vermont,50,651,11801177,5.5,0.005516399
+#Septicemia (A40-A41),GR113-010,Virginia,51,24075,148302749,16.2,0.016233684
+#Septicemia (A40-A41),GR113-010,Washington,53,7723,124725438,6.2,0.006192001
+#Septicemia (A40-A41),GR113-010,West Virginia,54,6282,34785800,18.1,0.018059093
+#Septicemia (A40-A41),GR113-010,Wisconsin,55,8713,106557379,8.2,0.008176815
+#Septicemia (A40-A41),GR113-010,Wyoming,56,854,10296319,8.3,0.008294226
+#Malignant neoplasms (C00-C97),GR113-019,Alabama,1,191188,88891578,215.1,0.215079993
+#Malignant neoplasms (C00-C97),GR113-019,Alaska,2,15958,13100743,121.8,0.121809885
+#Malignant neoplasms (C00-C97),GR113-019,Arizona,4,196961,116207661,169.5,0.169490547
+#Malignant neoplasms (C00-C97),GR113-019,Arkansas,5,121589,54119666,224.7,0.224666945
+#Malignant neoplasms (C00-C97),GR113-019,California,6,1062217,697268717,152.3,0.15233969
+#Malignant neoplasms (C00-C97),GR113-019,Colorado,8,129672,93127301,139.2,0.13924166
+#Malignant neoplasms (C00-C97),GR113-019,Connecticut,9,130933,67016484,195.4,0.19537432
+#Malignant neoplasms (C00-C97),GR113-019,Delaware,10,35300,16604497,212.6,0.21259301
+#Malignant neoplasms (C00-C97),GR113-019,District of Columbia,11,21893,11515629,190.1,0.190115538
+#Malignant neoplasms (C00-C97),GR113-019,Florida,12,782674,349255045,224.1,0.224098123
+#Malignant neoplasms (C00-C97),GR113-019,Georgia,13,288050,177534097,162.3,0.162250523
+#Malignant neoplasms (C00-C97),GR113-019,Hawaii,15,42013,25247923,166.4,0.166401807
+#Malignant neoplasms (C00-C97),GR113-019,Idaho,16,47046,28525825,164.9,0.16492424
+#Malignant neoplasms (C00-C97),GR113-019,Illinois,17,464465,241233049,192.5,0.192537881
+#Malignant neoplasms (C00-C97),GR113-019,Indiana,18,248509,121339207,204.8,0.204805195
+#Malignant neoplasms (C00-C97),GR113-019,Iowa,19,122025,57386432,212.6,0.21263737
+#Malignant neoplasms (C00-C97),GR113-019,Kansas,20,102594,53312917,192.4,0.192437416
+#Malignant neoplasms (C00-C97),GR113-019,Kentucky,21,184119,80960850,227.4,0.227417326
+#Malignant neoplasms (C00-C97),GR113-019,Louisiana,22,176545,86182287,204.9,0.204850679
+#Malignant neoplasms (C00-C97),GR113-019,Maine,23,60419,25013975,241.5,0.241540979
+#Malignant neoplasms (C00-C97),GR113-019,Maryland,24,197963,108164436,183,0.183020415
+#Malignant neoplasms (C00-C97),GR113-019,Massachusetts,25,250965,124233202,202,0.202011214
+#Malignant neoplasms (C00-C97),GR113-019,Michigan,26,384768,189137712,203.4,0.203432724
+#Malignant neoplasms (C00-C97),GR113-019,Minnesota,27,178117,99446183,179.1,0.179108936
+#Malignant neoplasms (C00-C97),GR113-019,Mississippi,28,118470,55669094,212.8,0.21281108
+#Malignant neoplasms (C00-C97),GR113-019,Missouri,29,238801,111755457,213.7,0.213681735
+#Malignant neoplasms (C00-C97),GR113-019,Montana,30,37166,18443327,201.5,0.201514618
+#Malignant neoplasms (C00-C97),GR113-019,Nebraska,31,64937,34276767,189.4,0.189449022
+#Malignant neoplasms (C00-C97),GR113-019,Nevada,32,84070,48335386,173.9,0.173930544
+#Malignant neoplasms (C00-C97),GR113-019,New Hampshire,33,49303,24717648,199.5,0.199464771
+#Malignant neoplasms (C00-C97),GR113-019,New Jersey,34,324086,165736728,195.5,0.195542656
+#Malignant neoplasms (C00-C97),GR113-019,New Mexico,35,61824,37679448,164.1,0.164078837
+#Malignant neoplasms (C00-C97),GR113-019,New York,36,680979,367517797,185.3,0.185291435
+#Malignant neoplasms (C00-C97),GR113-019,North Carolina,37,333981,174209369,191.7,0.191712422
+#Malignant neoplasms (C00-C97),GR113-019,North Dakota,38,24831,12907379,192.4,0.192378329
+#Malignant neoplasms (C00-C97),GR113-019,Ohio,39,477719,218537270,218.6,0.218598411
+#Malignant neoplasms (C00-C97),GR113-019,Oklahoma,40,146605,69889751,209.8,0.209766093
+#Malignant neoplasms (C00-C97),GR113-019,Oregon,41,142812,71265198,200.4,0.200395149
+#Malignant neoplasms (C00-C97),GR113-019,Pennsylvania,42,554761,238926197,232.2,0.232189273
+#Malignant neoplasms (C00-C97),GR113-019,Rhode Island,44,43347,20087963,215.8,0.215785941
+#Malignant neoplasms (C00-C97),GR113-019,South Carolina,45,173462,85228949,203.5,0.203524744
+#Malignant neoplasms (C00-C97),GR113-019,South Dakota,46,30713,15276970,201,0.201041175
+#Malignant neoplasms (C00-C97),GR113-019,Tennessee,47,252089,117660805,214.3,0.214250616
+#Malignant neoplasms (C00-C97),GR113-019,Texas,48,686569,461846329,148.7,0.148657455
+#Malignant neoplasms (C00-C97),GR113-019,Utah,49,50904,50203457,101.4,0.101395408
+#Malignant neoplasms (C00-C97),GR113-019,Vermont,50,24635,11801177,208.8,0.208750364
+#Malignant neoplasms (C00-C97),GR113-019,Virginia,51,267769,148302749,180.6,0.180555655
+#Malignant neoplasms (C00-C97),GR113-019,Washington,53,220150,124725438,176.5,0.176507698
+#Malignant neoplasms (C00-C97),GR113-019,West Virginia,54,89368,34785800,256.9,0.256909429
+#Malignant neoplasms (C00-C97),GR113-019,Wisconsin,55,210585,106557379,197.6,0.197625919
+#Malignant neoplasms (C00-C97),GR113-019,Wyoming,56,17546,10296319,170.4,0.170410416
+#Diabetes mellitus (E10-E14),GR113-046,Alabama,1,25316,88891578,28.5,0.028479638
+#Diabetes mellitus (E10-E14),GR113-046,Alaska,2,1920,13100743,14.7,0.014655657
+#Diabetes mellitus (E10-E14),GR113-046,Arizona,4,27286,116207661,23.5,0.02348038
+#Diabetes mellitus (E10-E14),GR113-046,Arkansas,5,16208,54119666,29.9,0.029948448
+#Diabetes mellitus (E10-E14),GR113-046,California,6,143363,697268717,20.6,0.020560653
+#Diabetes mellitus (E10-E14),GR113-046,Colorado,8,14463,93127301,15.5,0.015530355
+#Diabetes mellitus (E10-E14),GR113-046,Connecticut,9,13107,67016484,19.6,0.019557875
+#Diabetes mellitus (E10-E14),GR113-046,Delaware,10,4091,16604497,24.6,0.024637904
+#Diabetes mellitus (E10-E14),GR113-046,District of Columbia,11,3154,11515629,27.4,0.027388864
+#Diabetes mellitus (E10-E14),GR113-046,Florida,12,96298,349255045,27.6,0.027572401
+#Diabetes mellitus (E10-E14),GR113-046,Georgia,13,34810,177534097,19.6,0.019607501
+#Diabetes mellitus (E10-E14),GR113-046,Hawaii,15,4768,25247923,18.9,0.018884722
+#Diabetes mellitus (E10-E14),GR113-046,Idaho,16,6693,28525825,23.5,0.02346295
+#Diabetes mellitus (E10-E14),GR113-046,Illinois,17,54423,241233049,22.6,0.022560342
+#Diabetes mellitus (E10-E14),GR113-046,Indiana,18,33462,121339207,27.6,0.027577236
+#Diabetes mellitus (E10-E14),GR113-046,Iowa,19,14751,57386432,25.7,0.025704682
+#Diabetes mellitus (E10-E14),GR113-046,Kansas,20,13259,53312917,24.9,0.024870145
+#Diabetes mellitus (E10-E14),GR113-046,Kentucky,21,23585,80960850,29.1,0.029131364
+#Diabetes mellitus (E10-E14),GR113-046,Louisiana,22,27717,86182287,32.2,0.032160901
+#Diabetes mellitus (E10-E14),GR113-046,Maine,23,7225,25013975,28.9,0.028883854
+#Diabetes mellitus (E10-E14),GR113-046,Maryland,24,25456,108164436,23.5,0.023534538
+#Diabetes mellitus (E10-E14),GR113-046,Massachusetts,25,23622,124233202,19,0.019014241
+#Diabetes mellitus (E10-E14),GR113-046,Michigan,26,52261,189137712,27.6,0.02763119
+#Diabetes mellitus (E10-E14),GR113-046,Minnesota,27,22547,99446183,22.7,0.022672565
+#Diabetes mellitus (E10-E14),GR113-046,Mississippi,28,16038,55669094,28.8,0.028809522
+#Diabetes mellitus (E10-E14),GR113-046,Missouri,29,28189,111755457,25.2,0.025223824
+#Diabetes mellitus (E10-E14),GR113-046,Montana,30,4818,18443327,26.1,0.026123269
+#Diabetes mellitus (E10-E14),GR113-046,Nebraska,31,8578,34276767,25,0.025025697
+#Diabetes mellitus (E10-E14),GR113-046,Nevada,32,7081,48335386,14.6,0.014649723
+#Diabetes mellitus (E10-E14),GR113-046,New Hampshire,33,5630,24717648,22.8,0.022777248
+#Diabetes mellitus (E10-E14),GR113-046,New Jersey,34,42812,165736728,25.8,0.025831329
+#Diabetes mellitus (E10-E14),GR113-046,New Mexico,35,11547,37679448,30.6,0.030645353
+#Diabetes mellitus (E10-E14),GR113-046,New York,36,74590,367517797,20.3,0.020295616
+#Diabetes mellitus (E10-E14),GR113-046,North Carolina,37,44373,174209369,25.5,0.025471076
+#Diabetes mellitus (E10-E14),GR113-046,North Dakota,38,3806,12907379,29.5,0.029487009
+#Diabetes mellitus (E10-E14),GR113-046,Ohio,39,69464,218537270,31.8,0.031785883
+#Diabetes mellitus (E10-E14),GR113-046,Oklahoma,40,22390,69889751,32,0.032036171
+#Diabetes mellitus (E10-E14),GR113-046,Oregon,41,20474,71265198,28.7,0.02872931
+#Diabetes mellitus (E10-E14),GR113-046,Pennsylvania,42,68455,238926197,28.7,0.028651107
+#Diabetes mellitus (E10-E14),GR113-046,Rhode Island,44,4621,20087963,23,0.023003826
+#Diabetes mellitus (E10-E14),GR113-046,South Carolina,45,22809,85228949,26.8,0.026762034
+#Diabetes mellitus (E10-E14),GR113-046,South Dakota,46,4363,15276970,28.6,0.028559328
+#Diabetes mellitus (E10-E14),GR113-046,Tennessee,47,33447,117660805,28.4,0.028426629
+#Diabetes mellitus (E10-E14),GR113-046,Texas,48,100696,461846329,21.8,0.021802923
+#Diabetes mellitus (E10-E14),GR113-046,Utah,49,10089,50203457,20.1,0.020096226
+#Diabetes mellitus (E10-E14),GR113-046,Vermont,50,3084,11801177,26.1,0.026132987
+#Diabetes mellitus (E10-E14),GR113-046,Virginia,51,31443,148302749,21.2,0.0212019
+#Diabetes mellitus (E10-E14),GR113-046,Washington,53,29663,124725438,23.8,0.023782638
+#Diabetes mellitus (E10-E14),GR113-046,West Virginia,54,15070,34785800,43.3,0.043322275
+#Diabetes mellitus (E10-E14),GR113-046,Wisconsin,55,24335,106557379,22.8,0.022837461
+#Diabetes mellitus (E10-E14),GR113-046,Wyoming,56,2267,10296319,22,0.022017577
+#Parkinson disease (G20-G21),GR113-051,Alabama,1,6539,88891578,7.4,0.007356152
+#Parkinson disease (G20-G21),GR113-051,Alaska,2,452,13100743,3.5,0.003450186
+#Parkinson disease (G20-G21),GR113-051,Arizona,4,9676,116207661,8.3,0.008326473
+#Parkinson disease (G20-G21),GR113-051,Arkansas,5,3676,54119666,6.8,0.006792355
+#Parkinson disease (G20-G21),GR113-051,California,6,41179,697268717,5.9,0.005905758
+#Parkinson disease (G20-G21),GR113-051,Colorado,8,6088,93127301,6.5,0.006537288
+#Parkinson disease (G20-G21),GR113-051,Connecticut,9,4917,67016484,7.3,0.007337001
+#Parkinson disease (G20-G21),GR113-051,Delaware,10,1165,16604497,7,0.007016172
+#Parkinson disease (G20-G21),GR113-051,District of Columbia,11,513,11515629,4.5,0.004454815
+#Parkinson disease (G20-G21),GR113-051,Florida,12,31837,349255045,9.1,0.009115688
+#Parkinson disease (G20-G21),GR113-051,Georgia,13,9257,177534097,5.2,0.00521421
+#Parkinson disease (G20-G21),GR113-051,Hawaii,15,1851,25247923,7.3,0.007331296
+#Parkinson disease (G20-G21),GR113-051,Idaho,16,2375,28525825,8.3,0.008325789
+#Parkinson disease (G20-G21),GR113-051,Illinois,17,17611,241233049,7.3,0.007300409
+#Parkinson disease (G20-G21),GR113-051,Indiana,18,9468,121339207,7.8,0.007802919
+#Parkinson disease (G20-G21),GR113-051,Iowa,19,5489,57386432,9.6,0.009564979
+#Parkinson disease (G20-G21),GR113-051,Kansas,20,5003,53312917,9.4,0.009384217
+#Parkinson disease (G20-G21),GR113-051,Kentucky,21,5630,80960850,7,0.006953978
+#Parkinson disease (G20-G21),GR113-051,Louisiana,22,5535,86182287,6.4,0.006422433
+#Parkinson disease (G20-G21),GR113-051,Maine,23,2454,25013975,9.8,0.009810516
+#Parkinson disease (G20-G21),GR113-051,Maryland,24,7181,108164436,6.6,0.006638966
+#Parkinson disease (G20-G21),GR113-051,Massachusetts,25,9283,124233202,7.5,0.007472238
+#Parkinson disease (G20-G21),GR113-051,Michigan,26,14661,189137712,7.8,0.007751495
+#Parkinson disease (G20-G21),GR113-051,Minnesota,27,9359,99446183,9.4,0.00941112
+#Parkinson disease (G20-G21),GR113-051,Mississippi,28,3159,55669094,5.7,0.005674603
+#Parkinson disease (G20-G21),GR113-051,Missouri,29,8767,111755457,7.8,0.007844807
+#Parkinson disease (G20-G21),GR113-051,Montana,30,1549,18443327,8.4,0.008398702
+#Parkinson disease (G20-G21),GR113-051,Nebraska,31,3244,34276767,9.5,0.009464136
+#Parkinson disease (G20-G21),GR113-051,Nevada,32,2473,48335386,5.1,0.005116334
+#Parkinson disease (G20-G21),GR113-051,New Hampshire,33,1907,24717648,7.7,0.007715135
+#Parkinson disease (G20-G21),GR113-051,New Jersey,34,11659,165736728,7,0.007034651
+#Parkinson disease (G20-G21),GR113-051,New Mexico,35,3024,37679448,8,0.008025595
+#Parkinson disease (G20-G21),GR113-051,New York,36,18086,367517797,4.9,0.004921122
+#Parkinson disease (G20-G21),GR113-051,North Carolina,37,11646,174209369,6.7,0.00668506
+#Parkinson disease (G20-G21),GR113-051,North Dakota,38,1123,12907379,8.7,0.00870045
+#Parkinson disease (G20-G21),GR113-051,Ohio,39,17616,218537270,8.1,0.008060868
+#Parkinson disease (G20-G21),GR113-051,Oklahoma,40,4988,69889751,7.1,0.007136955
+#Parkinson disease (G20-G21),GR113-051,Oregon,41,6614,71265198,9.3,0.009280827
+#Parkinson disease (G20-G21),GR113-051,Pennsylvania,42,22271,238926197,9.3,0.009321288
+#Parkinson disease (G20-G21),GR113-051,Rhode Island,44,1586,20087963,7.9,0.007895275
+#Parkinson disease (G20-G21),GR113-051,South Carolina,45,5884,85228949,6.9,0.006903758
+#Parkinson disease (G20-G21),GR113-051,South Dakota,46,1258,15276970,8.2,0.008234617
+#Parkinson disease (G20-G21),GR113-051,Tennessee,47,8049,117660805,6.8,0.006840851
+#Parkinson disease (G20-G21),GR113-051,Texas,48,27025,461846329,5.9,0.005851513
+#Parkinson disease (G20-G21),GR113-051,Utah,49,3436,50203457,6.8,0.00684415
+#Parkinson disease (G20-G21),GR113-051,Vermont,50,1115,11801177,9.4,0.00944821
+#Parkinson disease (G20-G21),GR113-051,Virginia,51,9602,148302749,6.5,0.006474593
+#Parkinson disease (G20-G21),GR113-051,Washington,53,10074,124725438,8.1,0.008076941
+#Parkinson disease (G20-G21),GR113-051,West Virginia,54,2743,34785800,7.9,0.007885402
+#Parkinson disease (G20-G21),GR113-051,Wisconsin,55,9202,106557379,8.6,0.008635723
+#Parkinson disease (G20-G21),GR113-051,Wyoming,56,617,10296319,6,0.005992433
+#Alzheimer disease (G30),GR113-052,Alabama,1,29200,88891578,32.8,0.032849006
+#Alzheimer disease (G30),GR113-052,Alaska,2,1302,13100743,9.9,0.009938368
+#Alzheimer disease (G30),GR113-052,Arizona,4,38856,116207661,33.4,0.033436694
+#Alzheimer disease (G30),GR113-052,Arkansas,5,16479,54119666,30.4,0.03044919
+#Alzheimer disease (G30),GR113-052,California,6,182673,697268717,26.2,0.026198364
+#Alzheimer disease (G30),GR113-052,Colorado,8,22908,93127301,24.6,0.024598587
+#Alzheimer disease (G30),GR113-052,Connecticut,9,14600,67016484,21.8,0.021785685
+#Alzheimer disease (G30),GR113-052,Delaware,10,3700,16604497,22.3,0.02228312
+#Alzheimer disease (G30),GR113-052,District of Columbia,11,2129,11515629,18.5,0.018487918
+#Alzheimer disease (G30),GR113-052,Florida,12,91836,349255045,26.3,0.026294824
+#Alzheimer disease (G30),GR113-052,Georgia,13,40922,177534097,23.1,0.02305022
+#Alzheimer disease (G30),GR113-052,Hawaii,15,4486,25247923,17.8,0.017767798
+#Alzheimer disease (G30),GR113-052,Idaho,16,7527,28525825,26.4,0.026386616
+#Alzheimer disease (G30),GR113-052,Illinois,17,54751,241233049,22.7,0.02269631
+#Alzheimer disease (G30),GR113-052,Indiana,18,35259,121339207,29.1,0.029058209
+#Alzheimer disease (G30),GR113-052,Iowa,19,22163,57386432,38.6,0.038620627
+#Alzheimer disease (G30),GR113-052,Kansas,20,15008,53312917,28.2,0.028150776
+#Alzheimer disease (G30),GR113-052,Kentucky,21,24420,80960850,30.2,0.030162727
+#Alzheimer disease (G30),GR113-052,Louisiana,22,26397,86182287,30.6,0.030629264
+#Alzheimer disease (G30),GR113-052,Maine,23,9169,25013975,36.7,0.03665551
+#Alzheimer disease (G30),GR113-052,Maryland,24,17913,108164436,16.6,0.016560896
+#Alzheimer disease (G30),GR113-052,Massachusetts,25,31480,124233202,25.3,0.025339442
+#Alzheimer disease (G30),GR113-052,Michigan,26,51335,189137712,27.1,0.027141599
+#Alzheimer disease (G30),GR113-052,Minnesota,27,27460,99446183,27.6,0.027612925
+#Alzheimer disease (G30),GR113-052,Mississippi,28,16470,55669094,29.6,0.029585536
+#Alzheimer disease (G30),GR113-052,Missouri,29,32538,111755457,29.1,0.029115357
+#Alzheimer disease (G30),GR113-052,Montana,30,4945,18443327,26.8,0.026811865
+#Alzheimer disease (G30),GR113-052,Nebraska,31,9896,34276767,28.9,0.028870868
+#Alzheimer disease (G30),GR113-052,Nevada,32,7258,48335386,15,0.015015914
+#Alzheimer disease (G30),GR113-052,New Hampshire,33,6926,24717648,28,0.028020465
+#Alzheimer disease (G30),GR113-052,New Jersey,34,34586,165736728,20.9,0.020868036
+#Alzheimer disease (G30),GR113-052,New Mexico,35,7127,37679448,18.9,0.018914821
+#Alzheimer disease (G30),GR113-052,New York,36,44101,367517797,12,0.011999691
+#Alzheimer disease (G30),GR113-052,North Carolina,37,50531,174209369,29,0.029005903
+#Alzheimer disease (G30),GR113-052,North Dakota,38,6195,12907379,48,0.047995801
+#Alzheimer disease (G30),GR113-052,Ohio,39,68820,218537270,31.5,0.031491196
+#Alzheimer disease (G30),GR113-052,Oklahoma,40,19635,69889751,28.1,0.028094248
+#Alzheimer disease (G30),GR113-052,Oregon,41,24494,71265198,34.4,0.034370213
+#Alzheimer disease (G30),GR113-052,Pennsylvania,42,63953,238926197,26.8,0.026766843
+#Alzheimer disease (G30),GR113-052,Rhode Island,44,6181,20087963,30.8,0.03076967
+#Alzheimer disease (G30),GR113-052,South Carolina,45,28561,85228949,33.5,0.033510914
+#Alzheimer disease (G30),GR113-052,South Dakota,46,6292,15276970,41.2,0.041186178
+#Alzheimer disease (G30),GR113-052,Tennessee,47,41111,117660805,34.9,0.034940267
+#Alzheimer disease (G30),GR113-052,Texas,48,101720,461846329,22,0.022024642
+#Alzheimer disease (G30),GR113-052,Utah,49,8828,50203457,17.6,0.017584446
+#Alzheimer disease (G30),GR113-052,Vermont,50,4192,11801177,35.5,0.035521881
+#Alzheimer disease (G30),GR113-052,Virginia,51,31826,148302749,21.5,0.021460155
+#Alzheimer disease (G30),GR113-052,Washington,53,52289,124725438,41.9,0.041923284
+#Alzheimer disease (G30),GR113-052,West Virginia,54,10506,34785800,30.2,0.030201979
+#Alzheimer disease (G30),GR113-052,Wisconsin,55,31355,106557379,29.4,0.029425461
+#Alzheimer disease (G30),GR113-052,Wyoming,56,2492,10296319,24.2,0.024202824
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Alabama,1,240542,88891578,270.6,0.270601564
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Alaska,2,12917,13100743,98.6,0.098597461
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Arizona,4,205428,116207661,176.8,0.176776641
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Arkansas,5,146640,54119666,271,0.270955109
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,California,6,1204497,697268717,172.7,0.172745022
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Colorado,8,121873,93127301,130.9,0.130867102
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Connecticut,9,145758,67016484,217.5,0.217495743
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Delaware,10,36429,16604497,219.4,0.219392373
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,District of Columbia,11,27496,11515629,238.8,0.238771152
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Florida,12,862541,349255045,247,0.246965939
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Georgia,13,320615,177534097,180.6,0.180593478
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Hawaii,15,45700,25247923,181,0.181004988
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Idaho,16,48679,28525825,170.6,0.170648877
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Illinois,17,517707,241233049,214.6,0.214608654
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Indiana,18,274061,121339207,225.9,0.225863517
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Iowa,19,139700,57386432,243.4,0.243437334
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Kansas,20,112323,53312917,210.7,0.210686277
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Kentucky,21,200669,80960850,247.9,0.247859305
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Louisiana,22,204178,86182287,236.9,0.236914112
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Maine,23,55621,25013975,222.4,0.222359701
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Maryland,24,218160,108164436,201.7,0.201692911
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Massachusetts,25,248993,124233202,200.4,0.200423877
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Michigan,26,474714,189137712,251,0.25098855
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Minnesota,27,150541,99446183,151.4,0.151379365
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Mississippi,28,155118,55669094,278.6,0.27864294
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Missouri,29,287105,111755457,256.9,0.256904681
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Montana,30,37221,18443327,201.8,0.201812829
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Nebraska,31,69217,34276767,201.9,0.201935614
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Nevada,32,95640,48335386,197.9,0.197867459
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,New Hampshire,33,48524,24717648,196.3,0.196313177
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,New Jersey,34,379431,165736728,228.9,0.228935979
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,New Mexico,35,64683,37679448,171.7,0.171666528
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,New York,36,939091,367517797,255.5,0.255522592
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,North Carolina,37,341929,174209369,196.3,0.196274748
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,North Dakota,38,28015,12907379,217,0.217046389
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Ohio,39,542175,218537270,248.1,0.248092694
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Oklahoma,40,193331,69889751,276.6,0.27662282
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Oregon,41,127763,71265198,179.3,0.17927825
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Pennsylvania,42,657327,238926197,275.1,0.275117174
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Rhode Island,44,50570,20087963,251.7,0.251742797
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,South Carolina,45,181393,85228949,212.8,0.212830267
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,South Dakota,46,33795,15276970,221.2,0.221215333
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Tennessee,47,288581,117660805,245.3,0.245265193
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Texas,48,778846,461846329,168.6,0.168637478
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Utah,49,58718,50203457,117,0.116960073
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Vermont,50,24353,11801177,206.4,0.206360772
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Virginia,51,269185,148302749,181.5,0.181510459
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Washington,53,207634,124725438,166.5,0.166472857
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,West Virginia,54,102444,34785800,294.5,0.29449948
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Wisconsin,55,225387,106557379,211.5,0.211517027
+"#Diseases of heart (I00-I09,I11,I13,I20-I51)",GR113-054,Wyoming,56,18669,10296319,181.3,0.181317226
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Alabama,1,8878,88891578,10,0.009987448
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Alaska,2,405,13100743,3.1,0.003091428
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Arizona,4,10739,116207661,9.2,0.009241215
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Arkansas,5,4682,54119666,8.7,0.008651199
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,California,6,68080,697268717,9.8,0.009763811
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Colorado,8,4261,93127301,4.6,0.004575457
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Connecticut,9,5851,67016484,8.7,0.008730688
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Delaware,10,1020,16604497,6.1,0.006142914
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,District of Columbia,11,1126,11515629,9.8,0.009778016
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Florida,12,34753,349255045,10,0.009950608
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Georgia,13,17986,177534097,10.1,0.010131012
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Hawaii,15,1816,25247923,7.2,0.007192671
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Idaho,16,1764,28525825,6.2,0.00618387
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Illinois,17,18019,241233049,7.5,0.00746954
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Indiana,18,10228,121339207,8.4,0.008429262
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Iowa,19,5303,57386432,9.2,0.00924086
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Kansas,20,3575,53312917,6.7,0.006705692
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Kentucky,21,5891,80960850,7.3,0.007276356
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Louisiana,22,6877,86182287,8,0.007979598
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Maine,23,1652,25013975,6.6,0.006604308
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Maryland,24,8245,108164436,7.6,0.007622653
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Massachusetts,25,8953,124233202,7.2,0.007206608
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Michigan,26,15627,189137712,8.3,0.008262234
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Minnesota,27,9220,99446183,9.3,0.009271346
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Mississippi,28,8101,55669094,14.6,0.01455206
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Missouri,29,8672,111755457,7.8,0.0077598
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Montana,30,1149,18443327,6.2,0.006229896
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Nebraska,31,3662,34276767,10.7,0.010683621
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Nevada,32,2795,48335386,5.8,0.005782513
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,New Hampshire,33,1552,24717648,6.3,0.006278915
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,New Jersey,34,12251,165736728,7.4,0.007391844
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,New Mexico,35,2233,37679448,5.9,0.005926308
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,New York,36,35297,367517797,9.6,0.009604161
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,North Carolina,37,14638,174209369,8.4,0.008402533
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,North Dakota,38,1316,12907379,10.2,0.010195718
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Ohio,39,22403,218537270,10.3,0.010251341
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Oklahoma,40,6201,69889751,8.9,0.008872546
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Oregon,41,7936,71265198,11.1,0.01113587
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Pennsylvania,42,18938,238926197,7.9,0.007926297
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Rhode Island,44,1305,20087963,6.5,0.006496428
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,South Carolina,45,7971,85228949,9.4,0.009352456
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,South Dakota,46,1324,15276970,8.7,0.00866664
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Tennessee,47,10956,117660805,9.3,0.009311512
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Texas,48,30419,461846329,6.6,0.00658639
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Utah,49,2188,50203457,4.4,0.004358266
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Vermont,50,893,11801177,7.6,0.007567042
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Virginia,51,10513,148302749,7.1,0.007088877
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Washington,53,8943,124725438,7.2,0.007170149
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,West Virginia,54,4373,34785800,12.6,0.012571222
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Wisconsin,55,7670,106557379,7.2,0.007198
+"#Essential hypertension and hypertensive renal disease (I10,I12,I15)",GR113-069,Wyoming,56,461,10296319,4.5,0.004477328
+#Cerebrovascular diseases (I60-I69),GR113-070,Alabama,1,54437,88891578,61.2,0.061239772
+#Cerebrovascular diseases (I60-I69),GR113-070,Alaska,2,3297,13100743,25.2,0.025166512
+#Cerebrovascular diseases (I60-I69),GR113-070,Arizona,4,44759,116207661,38.5,0.038516394
+#Cerebrovascular diseases (I60-I69),GR113-070,Arkansas,5,35298,54119666,65.2,0.065222132
+#Cerebrovascular diseases (I60-I69),GR113-070,California,6,294397,697268717,42.2,0.042221455
+#Cerebrovascular diseases (I60-I69),GR113-070,Colorado,8,32621,93127301,35,0.035028396
+#Cerebrovascular diseases (I60-I69),GR113-070,Connecticut,9,29313,67016484,43.7,0.043739985
+#Cerebrovascular diseases (I60-I69),GR113-070,Delaware,10,7879,16604497,47.5,0.047451001
+#Cerebrovascular diseases (I60-I69),GR113-070,District of Columbia,11,4413,11515629,38.3,0.038321832
+#Cerebrovascular diseases (I60-I69),GR113-070,Florida,12,185091,349255045,53,0.052995942
+#Cerebrovascular diseases (I60-I69),GR113-070,Georgia,13,76837,177534097,43.3,0.043280137
+#Cerebrovascular diseases (I60-I69),GR113-070,Hawaii,15,13184,25247923,52.2,0.052218157
+#Cerebrovascular diseases (I60-I69),GR113-070,Idaho,16,12963,28525825,45.4,0.045443033
+#Cerebrovascular diseases (I60-I69),GR113-070,Illinois,17,116332,241233049,48.2,0.048223907
+#Cerebrovascular diseases (I60-I69),GR113-070,Indiana,18,63248,121339207,52.1,0.052124949
+#Cerebrovascular diseases (I60-I69),GR113-070,Iowa,19,33117,57386432,57.7,0.057708763
+#Cerebrovascular diseases (I60-I69),GR113-070,Kansas,20,29097,53312917,54.6,0.054577768
+#Cerebrovascular diseases (I60-I69),GR113-070,Kentucky,21,42236,80960850,52.2,0.052168425
+#Cerebrovascular diseases (I60-I69),GR113-070,Louisiana,22,43896,86182287,50.9,0.0509339
+#Cerebrovascular diseases (I60-I69),GR113-070,Maine,23,13419,25013975,53.6,0.053646012
+#Cerebrovascular diseases (I60-I69),GR113-070,Maryland,24,48530,108164436,44.9,0.044866873
+#Cerebrovascular diseases (I60-I69),GR113-070,Massachusetts,25,54464,124233202,43.8,0.043840132
+#Cerebrovascular diseases (I60-I69),GR113-070,Michigan,26,94831,189137712,50.1,0.0501386
+#Cerebrovascular diseases (I60-I69),GR113-070,Minnesota,27,44727,99446183,45,0.044976085
+#Cerebrovascular diseases (I60-I69),GR113-070,Mississippi,28,31716,55669094,57,0.056972366
+#Cerebrovascular diseases (I60-I69),GR113-070,Missouri,29,63008,111755457,56.4,0.056380245
+#Cerebrovascular diseases (I60-I69),GR113-070,Montana,30,9523,18443327,51.6,0.051633851
+#Cerebrovascular diseases (I60-I69),GR113-070,Nebraska,31,17524,34276767,51.1,0.051125008
+#Cerebrovascular diseases (I60-I69),GR113-070,Nevada,32,17853,48335386,36.9,0.036935673
+#Cerebrovascular diseases (I60-I69),GR113-070,New Hampshire,33,9999,24717648,40.5,0.040452878
+#Cerebrovascular diseases (I60-I69),GR113-070,New Jersey,34,68731,165736728,41.5,0.041469987
+#Cerebrovascular diseases (I60-I69),GR113-070,New Mexico,35,14689,37679448,39,0.038984117
+#Cerebrovascular diseases (I60-I69),GR113-070,New York,36,126719,367517797,34.5,0.034479691
+#Cerebrovascular diseases (I60-I69),GR113-070,North Carolina,37,92514,174209369,53.1,0.053105066
+#Cerebrovascular diseases (I60-I69),GR113-070,North Dakota,38,7333,12907379,56.8,0.056812464
+#Cerebrovascular diseases (I60-I69),GR113-070,Ohio,39,118575,218537270,54.3,0.05425848
+#Cerebrovascular diseases (I60-I69),GR113-070,Oklahoma,40,40090,69889751,57.4,0.057361773
+#Cerebrovascular diseases (I60-I69),GR113-070,Oregon,41,40359,71265198,56.6,0.056632131
+#Cerebrovascular diseases (I60-I69),GR113-070,Pennsylvania,42,140169,238926197,58.7,0.058666233
+#Cerebrovascular diseases (I60-I69),GR113-070,Rhode Island,44,9073,20087963,45.2,0.045166352
+#Cerebrovascular diseases (I60-I69),GR113-070,South Carolina,45,48730,85228949,57.2,0.057175409
+#Cerebrovascular diseases (I60-I69),GR113-070,South Dakota,46,8579,15276970,56.2,0.056156424
+#Cerebrovascular diseases (I60-I69),GR113-070,Tennessee,47,67477,117660805,57.3,0.057348749
+#Cerebrovascular diseases (I60-I69),GR113-070,Texas,48,188383,461846329,40.8,0.040789108
+#Cerebrovascular diseases (I60-I69),GR113-070,Utah,49,15721,50203457,31.3,0.031314577
+#Cerebrovascular diseases (I60-I69),GR113-070,Vermont,50,5350,11801177,45.3,0.045334461
+#Cerebrovascular diseases (I60-I69),GR113-070,Virginia,51,68081,148302749,45.9,0.045906769
+#Cerebrovascular diseases (I60-I69),GR113-070,Washington,53,57024,124725438,45.7,0.045719623
+#Cerebrovascular diseases (I60-I69),GR113-070,West Virginia,54,21697,34785800,62.4,0.062373152
+#Cerebrovascular diseases (I60-I69),GR113-070,Wisconsin,55,54899,106557379,51.5,0.051520599
+#Cerebrovascular diseases (I60-I69),GR113-070,Wyoming,56,4249,10296319,41.3,0.041267175
+#Influenza and pneumonia (J09-J18),GR113-076,Alabama,1,19692,88891578,22.2,0.02215283
+#Influenza and pneumonia (J09-J18),GR113-076,Alaska,2,999,13100743,7.6,0.007625522
+#Influenza and pneumonia (J09-J18),GR113-076,Arizona,4,19081,116207661,16.4,0.016419744
+#Influenza and pneumonia (J09-J18),GR113-076,Arkansas,5,14328,54119666,26.5,0.026474664
+#Influenza and pneumonia (J09-J18),GR113-076,California,6,127997,697268717,18.4,0.018356911
+#Influenza and pneumonia (J09-J18),GR113-076,Colorado,8,12239,93127301,13.1,0.013142226
+#Influenza and pneumonia (J09-J18),GR113-076,Connecticut,9,14151,67016484,21.1,0.0211157
+#Influenza and pneumonia (J09-J18),GR113-076,Delaware,10,2892,16604497,17.4,0.017416968
+#Influenza and pneumonia (J09-J18),GR113-076,District of Columbia,11,1649,11515629,14.3,0.014319669
+#Influenza and pneumonia (J09-J18),GR113-076,Florida,12,52518,349255045,15,0.015037149
+#Influenza and pneumonia (J09-J18),GR113-076,Georgia,13,29096,177534097,16.4,0.016388964
+#Influenza and pneumonia (J09-J18),GR113-076,Hawaii,15,6238,25247923,24.7,0.024706983
+#Influenza and pneumonia (J09-J18),GR113-076,Idaho,16,4542,28525825,15.9,0.015922414
+#Influenza and pneumonia (J09-J18),GR113-076,Illinois,17,49354,241233049,20.5,0.020459054
+#Influenza and pneumonia (J09-J18),GR113-076,Indiana,18,22188,121339207,18.3,0.018285928
+#Influenza and pneumonia (J09-J18),GR113-076,Iowa,19,14592,57386432,25.4,0.025427613
+#Influenza and pneumonia (J09-J18),GR113-076,Kansas,20,12236,53312917,23,0.022951286
+#Influenza and pneumonia (J09-J18),GR113-076,Kentucky,21,19015,80960850,23.5,0.023486661
+#Influenza and pneumonia (J09-J18),GR113-076,Louisiana,22,16729,86182287,19.4,0.019411181
+#Influenza and pneumonia (J09-J18),GR113-076,Maine,23,5336,25013975,21.3,0.021332075
+#Influenza and pneumonia (J09-J18),GR113-076,Maryland,24,20101,108164436,18.6,0.018583742
+#Influenza and pneumonia (J09-J18),GR113-076,Massachusetts,25,31168,124233202,25.1,0.025088301
+#Influenza and pneumonia (J09-J18),GR113-076,Michigan,26,35072,189137712,18.5,0.018543103
+#Influenza and pneumonia (J09-J18),GR113-076,Minnesota,27,14002,99446183,14.1,0.014079977
+#Influenza and pneumonia (J09-J18),GR113-076,Mississippi,28,13208,55669094,23.7,0.023725912
+#Influenza and pneumonia (J09-J18),GR113-076,Missouri,29,26449,111755457,23.7,0.023666853
+#Influenza and pneumonia (J09-J18),GR113-076,Montana,30,3615,18443327,19.6,0.019600585
+#Influenza and pneumonia (J09-J18),GR113-076,Nebraska,31,6774,34276767,19.8,0.019762657
+#Influenza and pneumonia (J09-J18),GR113-076,Nevada,32,8996,48335386,18.6,0.018611623
+#Influenza and pneumonia (J09-J18),GR113-076,New Hampshire,33,4149,24717648,16.8,0.016785578
+#Influenza and pneumonia (J09-J18),GR113-076,New Jersey,34,28464,165736728,17.2,0.017174226
+#Influenza and pneumonia (J09-J18),GR113-076,New Mexico,35,6466,37679448,17.2,0.017160549
+#Influenza and pneumonia (J09-J18),GR113-076,New York,36,93414,367517797,25.4,0.025417545
+#Influenza and pneumonia (J09-J18),GR113-076,North Carolina,37,34968,174209369,20.1,0.020072399
+#Influenza and pneumonia (J09-J18),GR113-076,North Dakota,38,2855,12907379,22.1,0.02211913
+#Influenza and pneumonia (J09-J18),GR113-076,Ohio,39,42980,218537270,19.7,0.019667126
+#Influenza and pneumonia (J09-J18),GR113-076,Oklahoma,40,15507,69889751,22.2,0.022187803
+#Influenza and pneumonia (J09-J18),GR113-076,Oregon,41,10028,71265198,14.1,0.014071384
+#Influenza and pneumonia (J09-J18),GR113-076,Pennsylvania,42,52454,238926197,22,0.02195406
+#Influenza and pneumonia (J09-J18),GR113-076,Rhode Island,44,4579,20087963,22.8,0.022794745
+#Influenza and pneumonia (J09-J18),GR113-076,South Carolina,45,14626,85228949,17.2,0.017160836
+#Influenza and pneumonia (J09-J18),GR113-076,South Dakota,46,3746,15276970,24.5,0.024520569
+#Influenza and pneumonia (J09-J18),GR113-076,Tennessee,47,29692,117660805,25.2,0.025235251
+#Influenza and pneumonia (J09-J18),GR113-076,Texas,48,63378,461846329,13.7,0.013722746
+#Influenza and pneumonia (J09-J18),GR113-076,Utah,49,7022,50203457,14,0.013987085
+#Influenza and pneumonia (J09-J18),GR113-076,Vermont,50,1659,11801177,14.1,0.01405792
+#Influenza and pneumonia (J09-J18),GR113-076,Virginia,51,26310,148302749,17.7,0.017740737
+#Influenza and pneumonia (J09-J18),GR113-076,Washington,53,16192,124725438,13,0.012982115
+#Influenza and pneumonia (J09-J18),GR113-076,West Virginia,54,8789,34785800,25.3,0.025266057
+#Influenza and pneumonia (J09-J18),GR113-076,Wisconsin,55,20842,106557379,19.6,0.019559415
+#Influenza and pneumonia (J09-J18),GR113-076,Wyoming,56,2225,10296319,21.6,0.021609665
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Alabama,1,51261,88891578,57.7,0.05766688
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Alaska,2,3297,13100743,25.2,0.025166512
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Arizona,4,56530,116207661,48.6,0.048645674
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Arkansas,5,33736,54119666,62.3,0.062335935
+#Chronic lower respiratory diseases (J40-J47),GR113-082,California,6,249336,697268717,35.8,0.035758954
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Colorado,8,40397,93127301,43.4,0.043378257
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Connecticut,9,27090,67016484,40.4,0.040422891
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Delaware,10,7883,16604497,47.5,0.047475091
+#Chronic lower respiratory diseases (J40-J47),GR113-082,District of Columbia,11,2747,11515629,23.9,0.023854537
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Florida,12,192030,349255045,55,0.054982742
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Georgia,13,70637,177534097,39.8,0.03978785
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Hawaii,15,5751,25247923,22.8,0.022778111
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Idaho,16,13506,28525825,47.3,0.047346571
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Illinois,17,98549,241233049,40.9,0.040852197
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Indiana,18,69316,121339207,57.1,0.057125806
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Iowa,19,33324,57386432,58.1,0.058069475
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Kansas,20,29567,53312917,55.5,0.055459355
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Kentucky,21,52810,80960850,65.2,0.065229058
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Louisiana,22,36444,86182287,42.3,0.042287112
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Maine,23,15815,25013975,63.2,0.063224657
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Maryland,24,37525,108164436,34.7,0.034692549
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Massachusetts,25,50359,124233202,40.5,0.040535863
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Michigan,26,93195,189137712,49.3,0.049273621
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Minnesota,27,39054,99446183,39.3,0.039271492
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Mississippi,28,29961,55669094,53.8,0.053819809
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Missouri,29,63785,111755457,57.1,0.057075513
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Montana,30,11772,18443327,63.8,0.063827963
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Nebraska,31,18885,34276767,55.1,0.055095628
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Nevada,32,24298,48335386,50.3,0.050269589
+#Chronic lower respiratory diseases (J40-J47),GR113-082,New Hampshire,33,12106,24717648,49,0.048977152
+#Chronic lower respiratory diseases (J40-J47),GR113-082,New Jersey,34,58596,165736728,35.4,0.035354867
+#Chronic lower respiratory diseases (J40-J47),GR113-082,New Mexico,35,18119,37679448,48.1,0.048087223
+#Chronic lower respiratory diseases (J40-J47),GR113-082,New York,36,130587,367517797,35.5,0.035532157
+#Chronic lower respiratory diseases (J40-J47),GR113-082,North Carolina,37,83415,174209369,47.9,0.04788204
+#Chronic lower respiratory diseases (J40-J47),GR113-082,North Dakota,38,5964,12907379,46.2,0.046206128
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Ohio,39,124359,218537270,56.9,0.056905168
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Oklahoma,40,46168,69889751,66.1,0.066058327
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Oregon,41,36241,71265198,50.9,0.050853714
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Pennsylvania,42,119516,238926197,50,0.050022141
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Rhode Island,44,9397,20087963,46.8,0.046779258
+#Chronic lower respiratory diseases (J40-J47),GR113-082,South Carolina,45,42702,85228949,50.1,0.050102695
+#Chronic lower respiratory diseases (J40-J47),GR113-082,South Dakota,46,8145,15276970,53.3,0.053315546
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Tennessee,47,66011,117660805,56.1,0.056102795
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Texas,48,164482,461846329,35.6,0.03561401
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Utah,49,12362,50203457,24.6,0.024623802
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Vermont,50,6333,11801177,53.7,0.053664139
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Virginia,51,56534,148302749,38.1,0.038120669
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Washington,53,53808,124725438,43.1,0.043141159
+#Chronic lower respiratory diseases (J40-J47),GR113-082,West Virginia,54,27284,34785800,78.4,0.078434304
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Wisconsin,55,47735,106557379,44.8,0.044797461
+#Chronic lower respiratory diseases (J40-J47),GR113-082,Wyoming,56,6137,10296319,59.6,0.059603825
+#Pneumonitis due to solids and liquids (J69),GR113-088,Alabama,1,5680,88891578,6.4,0.006389807
+#Pneumonitis due to solids and liquids (J69),GR113-088,Alaska,2,317,13100743,2.4,0.00241971
+#Pneumonitis due to solids and liquids (J69),GR113-088,Arizona,4,4937,116207661,4.2,0.004248429
+#Pneumonitis due to solids and liquids (J69),GR113-088,Arkansas,5,3778,54119666,7,0.006980827
+#Pneumonitis due to solids and liquids (J69),GR113-088,California,6,21291,697268717,3.1,0.003053486
+#Pneumonitis due to solids and liquids (J69),GR113-088,Colorado,8,5033,93127301,5.4,0.00540443
+#Pneumonitis due to solids and liquids (J69),GR113-088,Connecticut,9,6707,67016484,10,0.010007985
+#Pneumonitis due to solids and liquids (J69),GR113-088,Delaware,10,1150,16604497,6.9,0.006925835
+#Pneumonitis due to solids and liquids (J69),GR113-088,District of Columbia,11,561,11515629,4.9,0.00487164
+#Pneumonitis due to solids and liquids (J69),GR113-088,Florida,12,19076,349255045,5.5,0.005461911
+#Pneumonitis due to solids and liquids (J69),GR113-088,Georgia,13,8832,177534097,5,0.004974819
+#Pneumonitis due to solids and liquids (J69),GR113-088,Hawaii,15,2117,25247923,8.4,0.008384848
+#Pneumonitis due to solids and liquids (J69),GR113-088,Idaho,16,1551,28525825,5.4,0.005437178
+#Pneumonitis due to solids and liquids (J69),GR113-088,Illinois,17,16461,241233049,6.8,0.006823692
+#Pneumonitis due to solids and liquids (J69),GR113-088,Indiana,18,8303,121339207,6.8,0.006842801
+#Pneumonitis due to solids and liquids (J69),GR113-088,Iowa,19,4761,57386432,8.3,0.008296386
+#Pneumonitis due to solids and liquids (J69),GR113-088,Kansas,20,3600,53312917,6.8,0.006752585
+#Pneumonitis due to solids and liquids (J69),GR113-088,Kentucky,21,6029,80960850,7.4,0.007446809
+#Pneumonitis due to solids and liquids (J69),GR113-088,Louisiana,22,4125,86182287,4.8,0.004786366
+#Pneumonitis due to solids and liquids (J69),GR113-088,Maine,23,1825,25013975,7.3,0.007295922
+#Pneumonitis due to solids and liquids (J69),GR113-088,Maryland,24,6887,108164436,6.4,0.006367158
+#Pneumonitis due to solids and liquids (J69),GR113-088,Massachusetts,25,10164,124233202,8.2,0.008181388
+#Pneumonitis due to solids and liquids (J69),GR113-088,Michigan,26,10033,189137712,5.3,0.0053046
+#Pneumonitis due to solids and liquids (J69),GR113-088,Minnesota,27,4458,99446183,4.5,0.004482827
+#Pneumonitis due to solids and liquids (J69),GR113-088,Mississippi,28,3703,55669094,6.7,0.006651806
+#Pneumonitis due to solids and liquids (J69),GR113-088,Missouri,29,9254,111755457,8.3,0.00828058
+#Pneumonitis due to solids and liquids (J69),GR113-088,Montana,30,1253,18443327,6.8,0.006793785
+#Pneumonitis due to solids and liquids (J69),GR113-088,Nebraska,31,2384,34276767,7,0.006955148
+#Pneumonitis due to solids and liquids (J69),GR113-088,Nevada,32,2180,48335386,4.5,0.004510153
+#Pneumonitis due to solids and liquids (J69),GR113-088,New Hampshire,33,1225,24717648,5,0.004955973
+#Pneumonitis due to solids and liquids (J69),GR113-088,New Jersey,34,11006,165736728,6.6,0.006640652
+#Pneumonitis due to solids and liquids (J69),GR113-088,New Mexico,35,1320,37679448,3.5,0.003503236
+#Pneumonitis due to solids and liquids (J69),GR113-088,New York,36,14836,367517797,4,0.004036811
+#Pneumonitis due to solids and liquids (J69),GR113-088,North Carolina,37,13267,174209369,7.6,0.007615549
+#Pneumonitis due to solids and liquids (J69),GR113-088,North Dakota,38,1153,12907379,8.9,0.008932875
+#Pneumonitis due to solids and liquids (J69),GR113-088,Ohio,39,15291,218537270,7,0.006996976
+#Pneumonitis due to solids and liquids (J69),GR113-088,Oklahoma,40,4713,69889751,6.7,0.006743478
+#Pneumonitis due to solids and liquids (J69),GR113-088,Oregon,41,3070,71265198,4.3,0.004307853
+#Pneumonitis due to solids and liquids (J69),GR113-088,Pennsylvania,42,21274,238926197,8.9,0.008904005
+#Pneumonitis due to solids and liquids (J69),GR113-088,Rhode Island,44,1436,20087963,7.1,0.00714856
+#Pneumonitis due to solids and liquids (J69),GR113-088,South Carolina,45,5496,85228949,6.4,0.006448513
+#Pneumonitis due to solids and liquids (J69),GR113-088,South Dakota,46,939,15276970,6.1,0.006146507
+#Pneumonitis due to solids and liquids (J69),GR113-088,Tennessee,47,9513,117660805,8.1,0.008085105
+#Pneumonitis due to solids and liquids (J69),GR113-088,Texas,48,22583,461846329,4.9,0.004889722
+#Pneumonitis due to solids and liquids (J69),GR113-088,Utah,49,1958,50203457,3.9,0.00390013
+#Pneumonitis due to solids and liquids (J69),GR113-088,Vermont,50,569,11801177,4.8,0.004821553
+#Pneumonitis due to solids and liquids (J69),GR113-088,Virginia,51,10401,148302749,7,0.007013356
+#Pneumonitis due to solids and liquids (J69),GR113-088,Washington,53,8637,124725438,6.9,0.00692481
+#Pneumonitis due to solids and liquids (J69),GR113-088,West Virginia,54,2380,34785800,6.8,0.006841872
+#Pneumonitis due to solids and liquids (J69),GR113-088,Wisconsin,55,6727,106557379,6.3,0.006313031
+#Pneumonitis due to solids and liquids (J69),GR113-088,Wyoming,56,473,10296319,4.6,0.004593875
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Alabama,1,10245,88891578,11.5,0.011525276
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Alaska,2,1413,13100743,10.8,0.010785648
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Arizona,4,16238,116207661,14,0.013973261
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Arkansas,5,5535,54119666,10.2,0.010227336
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,California,6,81764,697268717,11.7,0.011726326
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Colorado,8,10752,93127301,11.5,0.011545487
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Connecticut,9,6121,67016484,9.1,0.009133574
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Delaware,10,1640,16604497,9.9,0.009876842
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,District of Columbia,11,1067,11515629,9.3,0.009265668
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Florida,12,46622,349255045,13.3,0.013348984
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Georgia,13,14733,177534097,8.3,0.008298688
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Hawaii,15,2001,25247923,7.9,0.007925404
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Idaho,16,2866,28525825,10,0.010047036
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Illinois,17,21917,241233049,9.1,0.009085405
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Indiana,18,11686,121339207,9.6,0.009630852
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Iowa,19,4767,57386432,8.3,0.008306842
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Kansas,20,4522,53312917,8.5,0.008481997
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Kentucky,21,8771,80960850,10.8,0.010833631
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Louisiana,22,7862,86182287,9.1,0.009122524
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Maine,23,2778,25013975,11.1,0.011105792
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Maryland,24,8585,108164436,7.9,0.00793699
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Massachusetts,25,11381,124233202,9.2,0.009160997
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Michigan,26,20918,189137712,11.1,0.011059666
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Minnesota,27,7884,99446183,7.9,0.007927906
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Mississippi,28,5644,55669094,10.1,0.01013848
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Missouri,29,9771,111755457,8.7,0.008743197
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Montana,30,2493,18443327,13.5,0.013517084
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Nebraska,31,2695,34276767,7.9,0.007862468
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Nevada,32,6329,48335386,13.1,0.013093927
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,New Hampshire,33,2380,24717648,9.6,0.009628748
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,New Jersey,34,14223,165736728,8.6,0.008581683
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,New Mexico,35,7580,37679448,20.1,0.020117068
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,New York,36,27284,367517797,7.4,0.007423858
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,North Carolina,37,18041,174209369,10.4,0.01035593
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,North Dakota,38,1295,12907379,10,0.010033021
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Ohio,39,23291,218537270,10.7,0.010657679
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Oklahoma,40,9208,69889751,13.2,0.013175036
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Oregon,41,8974,71265198,12.6,0.012592402
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Pennsylvania,42,22555,238926197,9.4,0.009440154
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Rhode Island,44,2327,20087963,11.6,0.011584052
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,South Carolina,45,10480,85228949,12.3,0.012296291
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,South Dakota,46,1933,15276970,12.7,0.012653033
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Tennessee,47,14033,117660805,11.9,0.011926656
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Texas,48,54210,461846329,11.7,0.01173767
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Utah,49,3139,50203457,6.3,0.006252557
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Vermont,50,1093,11801177,9.3,0.009261788
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Virginia,51,13166,148302749,8.9,0.008877786
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Washington,53,13722,124725438,11,0.011001765
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,West Virginia,54,4952,34785800,14.2,0.014235694
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Wisconsin,55,9769,106557379,9.2,0.009167831
+"#Chronic liver disease and cirrhosis (K70,K73-K74)",GR113-093,Wyoming,56,1421,10296319,13.8,0.013801049
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Alabama,1,19879,88891578,22.4,0.022363198
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Alaska,2,783,13100743,6,0.00597676
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Arizona,4,9901,116207661,8.5,0.008520092
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Arkansas,5,12178,54119666,22.5,0.022501987
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,California,6,52273,697268717,7.5,0.007496823
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Colorado,8,8262,93127301,8.9,0.008871727
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Connecticut,9,10826,67016484,16.2,0.016154235
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Delaware,10,2886,16604497,17.4,0.017380834
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,District of Columbia,11,1301,11515629,11.3,0.011297689
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Florida,12,51524,349255045,14.8,0.014752543
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Georgia,13,30458,177534097,17.2,0.017156141
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Hawaii,15,3381,25247923,13.4,0.013391201
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Idaho,16,2602,28525825,9.1,0.009121559
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Illinois,17,45922,241233049,19,0.019036363
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Indiana,18,24859,121339207,20.5,0.020487195
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Iowa,19,5578,57386432,9.7,0.009720068
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Kansas,20,10379,53312917,19.5,0.019468078
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Kentucky,21,17490,80960850,21.6,0.021603034
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Louisiana,22,20989,86182287,24.4,0.024354192
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Maine,23,4612,25013975,18.4,0.018437693
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Maryland,24,13684,108164436,12.7,0.012651108
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Massachusetts,25,24156,124233202,19.4,0.019444077
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Michigan,26,31497,189137712,16.7,0.016652945
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Minnesota,27,13102,99446183,13.2,0.013174965
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Mississippi,28,12974,55669094,23.3,0.023305571
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Missouri,29,23065,111755457,20.6,0.020638813
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Montana,30,2278,18443327,12.4,0.012351351
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Nebraska,31,4846,34276767,14.1,0.014137856
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Nevada,32,7407,48335386,15.3,0.015324177
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,New Hampshire,33,3015,24717648,12.2,0.012197763
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,New Jersey,34,29816,165736728,18,0.017989977
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,New Mexico,35,4800,37679448,12.7,0.01273904
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,New York,36,44634,367517797,12.1,0.012144718
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,North Carolina,37,31267,174209369,17.9,0.017947944
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,North Dakota,38,1666,12907379,12.9,0.012907345
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Ohio,39,37337,218537270,17.1,0.017084958
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Oklahoma,40,10804,69889751,15.5,0.015458633
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Oregon,41,6549,71265198,9.2,0.009189619
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Pennsylvania,42,55451,238926197,23.2,0.023208422
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Rhode Island,44,2867,20087963,14.3,0.014272229
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,South Carolina,45,15376,85228949,18,0.018040819
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,South Dakota,46,1620,15276970,10.6,0.010604197
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Tennessee,47,16192,117660805,13.8,0.013761592
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Texas,48,60421,461846329,13.1,0.01308249
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Utah,49,4723,50203457,9.4,0.009407719
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Vermont,50,892,11801177,7.6,0.007558568
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Virginia,51,26452,148302749,17.8,0.017836487
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Washington,53,8014,124725438,6.4,0.006425313
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,West Virginia,54,8647,34785800,24.9,0.024857844
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Wisconsin,55,17781,106557379,16.7,0.016686784
+"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",GR113-097,Wyoming,56,1173,10296319,11.4,0.011392421
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Alabama,1,45865,88891578,51.6,0.051596564
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Alaska,2,6743,13100743,51.5,0.051470363
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Arizona,4,57971,116207661,49.9,0.049885696
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Arkansas,5,27025,54119666,49.9,0.049935637
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,California,6,207738,697268717,29.8,0.029793105
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Colorado,8,41015,93127301,44,0.044041865
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Connecticut,9,26422,67016484,39.4,0.039426121
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Delaware,10,6815,16604497,41,0.041043098
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,District of Columbia,11,4278,11515629,37.1,0.037149512
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Florida,12,168132,349255045,48.1,0.048140178
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Georgia,13,72040,177534097,40.6,0.040578121
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Hawaii,15,8441,25247923,33.4,0.033432453
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Idaho,16,12814,28525825,44.9,0.044920699
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Illinois,17,83897,241233049,34.8,0.034778402
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Indiana,18,50577,121339207,41.7,0.041682323
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Iowa,19,24402,57386432,42.5,0.042522246
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Kansas,20,23896,53312917,44.8,0.044822158
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Kentucky,21,46705,80960850,57.7,0.057688377
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Louisiana,22,44303,86182287,51.4,0.051406155
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Maine,23,11576,25013975,46.3,0.046278131
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Maryland,24,29877,108164436,27.6,0.027621833
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Massachusetts,25,41160,124233202,33.1,0.03313124
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Michigan,26,73546,189137712,38.9,0.038884895
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Minnesota,27,40512,99446183,40.7,0.040737612
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Mississippi,28,32597,55669094,58.6,0.058554932
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Missouri,29,56179,111755457,50.3,0.050269581
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Montana,30,10682,18443327,57.9,0.057917967
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Nebraska,31,13635,34276767,39.8,0.039779131
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Nevada,32,20529,48335386,42.5,0.042471989
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,New Hampshire,33,10289,24717648,41.6,0.041626129
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,New Jersey,34,51766,165736728,31.2,0.031233874
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,New Mexico,35,24140,37679448,64.1,0.064066756
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,New York,36,102613,367517797,27.9,0.027920553
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,North Carolina,37,80939,174209369,46.5,0.046460762
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,North Dakota,38,5716,12907379,44.3,0.044284746
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Ohio,39,97621,218537270,44.7,0.044670184
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Oklahoma,40,40152,69889751,57.5,0.057450484
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Oregon,41,30709,71265198,43.1,0.043091159
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Pennsylvania,42,112805,238926197,47.2,0.047213324
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Rhode Island,44,8541,20087963,42.5,0.042517999
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,South Carolina,45,43809,85228949,51.4,0.051401549
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,South Dakota,46,7802,15276970,51.1,0.051070337
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Tennessee,47,63520,117660805,54,0.053985692
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Texas,48,171407,461846329,37.1,0.037113427
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Utah,49,17185,50203457,34.2,0.03423071
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Vermont,50,5609,11801177,47.5,0.047529157
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Virginia,51,53878,148302749,36.3,0.036329738
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Washington,53,49865,124725438,40,0.039979816
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,West Virginia,54,22996,34785800,66.1,0.066107435
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Wisconsin,55,50243,106557379,47.2,0.047151122
+"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)",GR113-112,Wyoming,56,5911,10296319,57.4,0.057408866
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Alabama,1,12077,88891578,13.6,0.013586214
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Alaska,2,2879,13100743,22,0.021975853
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Arizona,4,19574,116207661,16.8,0.016843984
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Arkansas,5,8414,54119666,15.5,0.015547029
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,California,6,69399,697268717,10,0.009952978
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Colorado,8,16607,93127301,17.8,0.01783258
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Connecticut,9,6160,67016484,9.2,0.009191768
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Delaware,10,1959,16604497,11.8,0.011798009
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,District of Columbia,11,690,11515629,6,0.005991857
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Florida,12,50619,349255045,14.5,0.01449342
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Georgia,13,20609,177534097,11.6,0.011608474
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Hawaii,15,2999,25247923,11.9,0.011878205
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Idaho,16,5039,28525825,17.7,0.017664695
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Illinois,17,22590,241233049,9.4,0.009364389
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Indiana,18,15867,121339207,13.1,0.013076565
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Iowa,19,7031,57386432,12.3,0.012252025
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Kansas,20,7542,53312917,14.1,0.014146665
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Kentucky,21,11953,80960850,14.8,0.014763926
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Louisiana,22,10592,86182287,12.3,0.012290229
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Maine,23,3696,25013975,14.8,0.01477574
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Maryland,24,9958,108164436,9.2,0.009206353
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Massachusetts,25,9932,124233202,8,0.007994642
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Michigan,26,22584,189137712,11.9,0.011940506
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Minnesota,27,11294,99446183,11.4,0.011356896
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Mississippi,28,7040,55669094,12.6,0.012646155
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Missouri,29,16199,111755457,14.5,0.014495042
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Montana,30,4083,18443327,22.1,0.022138088
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Nebraska,31,3864,34276767,11.3,0.011272942
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Nevada,32,9485,48335386,19.6,0.019623305
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,New Hampshire,33,3439,24717648,13.9,0.013913136
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,New Jersey,34,12238,165736728,7.4,0.007384
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,New Mexico,35,7555,37679448,20.1,0.020050718
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,New York,36,27219,367517797,7.4,0.007406172
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,North Carolina,37,21947,174209369,12.6,0.01259806
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,North Dakota,38,1918,12907379,14.9,0.014859717
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Ohio,39,26198,218537270,12,0.011987887
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Oklahoma,40,11468,69889751,16.4,0.016408701
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Oregon,41,11994,71265198,16.8,0.016830094
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Pennsylvania,42,29903,238926197,12.5,0.01251558
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Rhode Island,44,1960,20087963,9.8,0.009757087
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,South Carolina,45,11285,85228949,13.2,0.013240806
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,South Dakota,46,2436,15276970,15.9,0.01594557
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Tennessee,47,17238,117660805,14.7,0.014650588
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Texas,48,51610,461846329,11.2,0.011174713
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Utah,49,8456,50203457,16.8,0.016843462
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Vermont,50,1791,11801177,15.2,0.015176452
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Virginia,51,18060,148302749,12.2,0.012177792
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Washington,53,17741,124725438,14.2,0.014224043
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,West Virginia,54,5613,34785800,16.1,0.016135895
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Wisconsin,55,13815,106557379,13,0.012964846
+"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)",GR113-124,Wyoming,56,2249,10296319,21.8,0.021842758
