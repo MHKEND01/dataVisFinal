@@ -9,16 +9,16 @@ Promise.all([geoP, stateP, deathP])
   var stateData = values[1];
   var deathData = values[2];
   initializeMap(geoData, stateData, deathData);
+
   initializePyramind(deathData);
 })
 
 var initializeMap = function(geoData, stateData, deathData)
 {
-  var causeData = getDataForCause(stateData, "#Diseases of heart (I00-I09,I11,I13,I20-I51)");
+  var causeData = getDataForCause(stateData, "Heart disease");
 
   var maxValue = d3.max(causeData, function(d){return +d["Crude Rate"]})
-  console.log(maxValue);
-  console.log(causeData);
+
 
   var stateDict = {};
 
@@ -38,7 +38,8 @@ var initializeMap = function(geoData, stateData, deathData)
   var svg = d3.select("body")
               .append("svg")
               .attr("width", screen.width)
-              .attr("height", screen.height);
+              .attr("height", screen.height)
+              .attr("class", "map");
 
   var projection = d3.geoAlbersUsa()
                       .translate([screen.width/2, screen.height/2]);
@@ -61,14 +62,26 @@ var colorGenerator = d3.scaleLinear()
         .attr("d", stateGenerator)
         .attr("stroke", "red")
         .attr("fill", function(d){return colorGenerator(d.properties.crudeRate)})
-        .on("mouseover", function(d){updatePyramid(deathData, d.properties.name)});
+        .on("mouseover", function(d){updatePyramid(deathData, "Heart disease", d.properties.name)});
+
+  var causeList = ["Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
+                  "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents", "Suicide"];
+
+    causeList.forEach(function(cause)
+    {
+      d3.select("body")
+        .append("text")
+        .text(cause)
+        .on("mouseover", function(d){updateMap(geoData, stateData, deathData, cause);})
+        .append("br");
+    });
 
 }
 
 var initializePyramind = function(deathData)
 {
-    var deathDemographicsMale = getDeathDemographics(deathData, "#Diseases of heart (I00-I09,I11,I13,I20-I51)", "Alabama", "Male");
-    var deathDemographicsFemale = getDeathDemographics(deathData, "#Diseases of heart (I00-I09,I11,I13,I20-I51)", "Alabama", "Female");
+    var deathDemographicsMale = getDeathDemographics(deathData, "Heart disease", "Alabama", "Male");
+    var deathDemographicsFemale = getDeathDemographics(deathData, "Heart disease", "Alabama", "Female");
 
     var maxValue = Math.max(
   d3.max(deathDemographicsMale, function(d) { return +d["Crude Rate"]; }),
@@ -188,10 +201,10 @@ rightBarGroup.selectAll('.barRight')
 
 }
 
-var updatePyramid = function(deathData, state)
+var updatePyramid = function(deathData, cause, state)
 {
-  var deathDemographicsMale = getDeathDemographics(deathData, "#Diseases of heart (I00-I09,I11,I13,I20-I51)", state, "Male");
-  var deathDemographicsFemale = getDeathDemographics(deathData, "#Diseases of heart (I00-I09,I11,I13,I20-I51)", state, "Female");
+  var deathDemographicsMale = getDeathDemographics(deathData, cause, state, "Male");
+  var deathDemographicsFemale = getDeathDemographics(deathData, cause, state, "Female");
 
   var maxValue = Math.max(
 d3.max(deathDemographicsMale, function(d) { return +d["Crude Rate"]; }),
@@ -284,6 +297,55 @@ middle: 28
       .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
       .attr('width', function(d) { return xScale(d['Crude Rate']); })
       .attr('height', yScale.bandwidth());
+}
+
+var updateMap = function(geoData, stateData, deathData, cause)
+{
+  var causeData = getDataForCause(stateData, cause);
+
+  var maxValue = d3.max(causeData, function(d){return +d["Crude Rate"]})
+
+
+  var stateDict = {};
+
+  causeData.forEach(function(state)
+{
+  stateDict[state.State] = state;
+});
+
+  geoData.features.forEach(function(state)
+{
+  state.properties.crudeRate = stateDict[state.properties.name]["Crude Rate"];
+});
+
+var colorGenerator = d3.scaleLinear()
+                .range(["white", "black"])
+                .domain([0,maxValue]);
+
+var svg = d3.select(".map");
+
+var projection = d3.geoAlbersUsa()
+                    .translate([screen.width/2, screen.height/2]);
+
+var stateGenerator = d3.geoPath()
+                        .projection(projection);
+
+svg.selectAll("#states")
+    .data(geoData.features)
+    .enter()
+    .transition()
+    .duration(200)
+    .selectAll("path")
+    //.attr("d", stateGenerator)
+    .attr("fill", function(d){return colorGenerator(d.properties.crudeRate)})
+
+
+  svg.selectAll("#states")
+      .selectAll("path")
+      .on("mouseover", function(d){return updatePyramid(deathData, cause, d.properties.name);});
+
+
+
 }
 
 var getDataForCause = function(stateData, cause)
