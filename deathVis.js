@@ -1,6 +1,9 @@
 var geoP = d3.json("usStates.json");
 var stateP = d3.csv("deathDataStates.csv");
 var deathP = d3.csv("deathData.csv")
+var selectedState = "Alabama";
+var deathDemographicsMale = [];
+var deathDemographicsFemale = [];
 
 Promise.all([geoP, stateP, deathP])
 .then(function(values)
@@ -33,7 +36,7 @@ var initializeMap = function(geoData, stateData, deathData)
 });
 
 
-  var screen = {width:770, height:600}
+  var screen = {width:770, height:500}
 
   var svg = d3.select("body")
               .append("svg")
@@ -62,33 +65,38 @@ var colorGenerator = d3.scaleLinear()
         .attr("d", stateGenerator)
         .attr("stroke", "red")
         .attr("fill", function(d){return colorGenerator(d.properties.crudeRate)})
-        .on("mouseover", function(d){updatePyramid(deathData, "Heart disease", d.properties.name)});
+        .on("click", function(d){selectedState = d.properties.name;updatePyramid(deathData, "Heart disease", d.properties.name)});
 
   var causeList = ["Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
                   "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents", "Suicide"];
 
+  var causeLabels = d3.select("body")
+                      .append("g")
+                      .attr("class", "causeLabels");
+
     causeList.forEach(function(cause)
     {
-      d3.select("body")
-        .append("text")
+      d3.select(".causeLabels")
+        .append("g")
+        .attr("class", "causeLabel")
         .text(cause)
-        .on("mouseover", function(d){updateMap(geoData, stateData, deathData, cause);})
-        .append("br");
+        .on("mouseover", function(d){updateMap(geoData, stateData, deathData, cause);updatePyramid(deathData, cause, selectedState);})
+        //.append("br")
     });
 
 }
 
 var initializePyramind = function(deathData)
 {
-    var deathDemographicsMale = getDeathDemographics(deathData, "Heart disease", "Alabama", "Male");
-    var deathDemographicsFemale = getDeathDemographics(deathData, "Heart disease", "Alabama", "Female");
+    deathDemographicsMale = getDeathDemographics(deathData, "Heart disease", "Alabama", "Male");
+    deathDemographicsFemale = getDeathDemographics(deathData, "Heart disease", "Alabama", "Female");
 
     var maxValue = Math.max(
   d3.max(deathDemographicsMale, function(d) { return +d["Crude Rate"]; }),
   d3.max(deathDemographicsFemale, function(d) { return +d["Crude Rate"]; })
 );
 
-    var width = 400,
+    var width = 600,
       height = 300;
 
     var margin = {
@@ -96,7 +104,7 @@ var initializePyramind = function(deathData)
   right: 10,
   bottom: 40,
   left: 10,
-  middle: 28
+  middle: 35
 };
 
     var regionWidth = (width/2) - margin.middle;
@@ -122,7 +130,7 @@ var initializePyramind = function(deathData)
 
     var yScale = d3.scaleBand()
                    .domain(ages)
-                   .rangeRound([height,0], 0.1);
+                   .rangeRound([height,0], 0);
 
     var yAxisLeft = d3.axisLeft()
       .scale(yScale)
@@ -173,12 +181,16 @@ var initializePyramind = function(deathData)
   svg.append('g')
     .attr('class', 'axisXLeft')
     .attr('transform', 'translate(0,'+ (height)+')')
-    .call(xAxisLeft);
+    .call(xAxisLeft)
+    .selectAll('text')
+    .attr("transform", "rotate(-90) translate(-20,-10)");
 
   svg.append('g')
     .attr('class', 'axisXRight')
     .attr('transform', 'translate('+(femaleLine)+','+ (height)+')')
-    .call(xAxisRight);
+    .call(xAxisRight)
+    .selectAll('text')
+    .attr("transform", "rotate(-90) translate(-20,-10)");
 
     leftBarGroup.selectAll('.barLeft')
   .data(deathDemographicsMale)
@@ -187,7 +199,10 @@ var initializePyramind = function(deathData)
     .attr('x', 0)
     .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
     .attr('width', function(d) { return xScale(d['Crude Rate']);})
-    .attr('height', yScale.bandwidth());
+    .attr('height', yScale.bandwidth())
+    .attr("fill", "RoyalBlue")
+    .style("stroke", "black")
+    .style("stroke-width", 1);
 
 rightBarGroup.selectAll('.barRight')
   .data(deathDemographicsFemale)
@@ -196,15 +211,18 @@ rightBarGroup.selectAll('.barRight')
     .attr('x', 0)
     .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
     .attr('width', function(d) { return xScale(d['Crude Rate']); })
-    .attr('height', yScale.bandwidth());
+    .attr('height', yScale.bandwidth())
+    .attr("fill", "DarkMagenta")
+    .style("stroke", "black")
+    .style("stroke-width", 1);
 
 
 }
 
 var updatePyramid = function(deathData, cause, state)
 {
-  var deathDemographicsMale = getDeathDemographics(deathData, cause, state, "Male");
-  var deathDemographicsFemale = getDeathDemographics(deathData, cause, state, "Female");
+  deathDemographicsMale = getDeathDemographics(deathData, cause, state, "Male");
+  deathDemographicsFemale = getDeathDemographics(deathData, cause, state, "Female");
 
   var maxValue = Math.max(
 d3.max(deathDemographicsMale, function(d) { return +d["Crude Rate"]; }),
@@ -212,7 +230,7 @@ d3.max(deathDemographicsFemale, function(d) { return +d["Crude Rate"]; })
 );
 
 
-  var width = 400,
+  var width = 600,
     height = 300;
 
   var margin = {
@@ -220,7 +238,7 @@ top: 20,
 right: 10,
 bottom: 40,
 left: 10,
-middle: 28
+middle: 35
 };
 
   var regionWidth = (width/2) - margin.middle;
@@ -246,7 +264,7 @@ middle: 28
 
   var yScale = d3.scaleBand()
                  .domain(ages)
-                 .rangeRound([height,0], 0.1);
+                 .rangeRound([height,0], 0);
 
   var yAxisLeft = d3.axisLeft()
     .scale(yScale)
@@ -263,7 +281,7 @@ middle: 28
 
 
   var xAxisLeft = d3.axisBottom()
-                    .scale(xScale.copy().range([maleLine, 0]))
+                    .scale(xScale.copy().range([maleLine, 0]));
 
   var svg = d3.select(".pyramid")
 
@@ -271,11 +289,15 @@ middle: 28
       .transition()
       .duration(200)
       .call(xAxisLeft)
+      .selectAll('text')
+      .attr("transform", "rotate(-90) translate(-20,-10)");
 
   svg.select(".axisXRight")
       .transition()
       .duration(200)
       .call(xAxisRight)
+      .selectAll('text')
+      .attr("transform", "rotate(-90) translate(-20,-10)");
 
   var leftBarGroup = d3.select(".leftBarGroup");
   var rightBarGroup = d3.select(".rightBarGroup");
@@ -284,7 +306,6 @@ middle: 28
     .data(deathDemographicsMale)
     .transition()
     .duration(200)
-      .attr('x', 0)
       .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
       .attr('width', function(d) { return xScale(d['Crude Rate']);})
       .attr('height', yScale.bandwidth());
@@ -293,10 +314,11 @@ middle: 28
     .data(deathDemographicsFemale)
     .transition()
     .duration(200)
-      .attr('x', 0)
       .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
       .attr('width', function(d) { return xScale(d['Crude Rate']); })
       .attr('height', yScale.bandwidth());
+
+  console.log(deathDemographicsFemale);
 }
 
 var updateMap = function(geoData, stateData, deathData, cause)
@@ -336,13 +358,12 @@ svg.selectAll("#states")
     .transition()
     .duration(200)
     .selectAll("path")
-    //.attr("d", stateGenerator)
     .attr("fill", function(d){return colorGenerator(d.properties.crudeRate)})
 
 
   svg.selectAll("#states")
       .selectAll("path")
-      .on("mouseover", function(d){return updatePyramid(deathData, cause, d.properties.name);});
+      .on("click", function(d){selectedState = d.properties.name; updatePyramid(deathData, cause, d.properties.name);});
 
 
 

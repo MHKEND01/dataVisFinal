@@ -1,0 +1,30 @@
+body
+{
+  background-color: NavajoWhite;
+}
+
+.map
+{
+  float: left;
+}
+
+.causeLabels
+{
+  position: relative;
+  float:right;
+  right:200px;
+}
+
+.causeLabel
+{
+  border-style: solid;
+  float: left;
+  clear: left;
+  margin:5px;
+}
+
+.pyramid
+{
+  float: left;
+  clear: left;
+}
