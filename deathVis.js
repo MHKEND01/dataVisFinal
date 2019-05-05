@@ -14,7 +14,6 @@ Promise.all([geoP, stateP, deathP])
   initializeMap(geoData, stateData, deathData);
   setUpCauseLabels(geoData, stateData, deathData);
   initializePyramind(deathData);
-//console.log(getMostDisproportionateCauseForAllStates(stateData));
 })
 
 var initializeMap = function(geoData, stateData, deathData)
@@ -27,7 +26,6 @@ var initializeMap = function(geoData, stateData, deathData)
 {
   stateDict[state.State] = state.cause;
 });
-console.log(stateDict);
 
   geoData.features.forEach(function(state)
 {
@@ -62,8 +60,8 @@ console.log(stateDict);
 
   var colorGenerator = d3.scaleOrdinal()
                   .domain(causeList)
-                  .range(["#b9936c","#82b74b","#034f84","#50394c",
-                  "#6b5b95","#878f99","#563f46","#7e4a35" ,"#587e76",
+                  .range(["#b9936c","#82b74b","#034f84","	#FF8C00",
+                  "#6b5b95","#878f99","#52d19d","#7e4a35" ,"#587e76",
                   "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
 
   states.append("path")
@@ -72,6 +70,79 @@ console.log(stateDict);
         .attr("fill", function(d){return colorGenerator(d.properties.cause)})
         .on("click", function(d){selectedState = d.properties.name;updatePyramid(deathData, "Heart disease", d.properties.name)});
 
+        svg.append("text")
+                .attr("x", 70 +(screen.width / 2))
+                .attr("y", (screen.height / 15))
+                .attr("text-anchor", "middle")
+                .attr("class", "mapLabel")
+                .style("font-size", "20px")
+                .style("text-decoration", "bold")
+                .style("text-decoration", "underline")
+                .text("Cause of Death which Most Disproportionately Impacts Each State");
+
+}
+
+var resetMap = function(geoData, stateData, deathData)
+{
+  var worstData = getMostDisproportionateCauseForAllStates(stateData);
+
+  var stateDict = {};
+
+  worstData.forEach(function(state)
+{
+  stateDict[state.State] = state.cause;
+});
+
+  geoData.features.forEach(function(state)
+{
+  state.properties.cause = stateDict[state.properties.name];
+});
+
+
+  var screen = {width:770, height:500}
+
+  var svg = d3.select(".map");
+
+  var projection = d3.geoAlbersUsa()
+                      .translate([screen.width/2, screen.height/2]);
+
+  var stateGenerator = d3.geoPath()
+                          .projection(projection);
+
+  var states = svg.append("g")
+                  .attr("id", "states")
+                  .selectAll("g")
+                  .data(geoData.features)
+                  .enter()
+                  .append("g")
+
+  var causeList = ["Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
+                  "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents", "Suicide"];
+
+
+  var colorGenerator = d3.scaleOrdinal()
+                  .domain(causeList)
+                  .range(["#b9936c","#82b74b","#034f84","	#FF8C00",
+                  "#6b5b95","#878f99","#52d19d","#7e4a35" ,"#587e76",
+                  "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
+
+  svg.selectAll("#states")
+      .data(geoData.features)
+      .enter()
+      .transition()
+      .duration(200)
+      .selectAll("path")
+      .attr("fill", function(d){return colorGenerator(d.properties.cause)})
+
+      d3.select(".mapLabel")
+        .transition()
+        .duration(200)
+        .text("Cause of Death which Most Disproportionately Impacts Each State");   
+
+
+    // svg.selectAll("#states")
+    //     .selectAll("path")
+    //     .on("click", function(d){selectedState = d.properties.name; updatePyramid(deathData, cause, d.properties.name);});
 }
 
 var setUpCauseLabels = function(geoData, stateData, deathData)
@@ -83,15 +154,39 @@ var setUpCauseLabels = function(geoData, stateData, deathData)
                       .append("g")
                       .attr("class", "causeLabels");
 
+  var colorGenerator = d3.scaleOrdinal()
+                  .domain(causeList)
+                  .range(["#b9936c","#82b74b","#034f84","	#FF8C00",
+                  "#6b5b95","#878f99","#52d19d","#7e4a35" ,"#587e76",
+                  "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
+
+  d3.select(".causeLabels")
+    .append("g")
+    .attr("class", "causeLabel")
+    .text("Cause which most disproportionally impacts each state")
+    .style("border", "5px solid grey")
+    .on("mouseover", function(d){
+      resetMap(geoData, stateData, deathData);
+      d3.select(this).style("border", "5px solid white");
+})
+    .on("mouseout", function(d){
+      d3.select(this).style("border", "5px solid grey");
+})
     causeList.forEach(function(cause)
     {
       d3.select(".causeLabels")
         .append("g")
         .attr("class", "causeLabel")
         .text(cause)
-        .on("mouseover", function(d){updateMap(geoData, stateData, deathData, cause);updatePyramid(deathData, cause, selectedState);})
-    });
-}
+        .style("border", function(d){return "5px solid "+ (colorGenerator(cause));})
+        .style("background-color", function(d){return colorGenerator(cause);})
+        .on("mouseover", function(d){updateMap(geoData, stateData, deathData, cause);
+          updatePyramid(deathData, cause, selectedState);
+          d3.select(this).style("border", "5px solid white");})
+        .on("mouseout", function(d){
+          d3.select(this).style("border", "5px solid "+ (colorGenerator(cause)));})
+        });
+  }
 
 var initializePyramind = function(deathData)
 {
@@ -402,6 +497,11 @@ svg.selectAll("#states")
   svg.selectAll("#states")
       .selectAll("path")
       .on("click", function(d){selectedState = d.properties.name; updatePyramid(deathData, cause, d.properties.name);});
+
+  d3.select(".mapLabel")
+    .transition()
+    .duration(200)
+    .text("Relative Impact of Death from "+cause);
 
 
 
