@@ -92,6 +92,7 @@ var initializeMap = function(geoData, stateData, deathData)
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 28) + "px");
 
+
       })
       .on("mouseout", function(d){
 
@@ -374,7 +375,9 @@ var initializePyramind = function(deathData)
 
       div .html("Crude Death Rate: "+(d["Crude Rate"]))
           .style("left", (d3.event.pageX) + "px")
-          .style("top", (d3.event.pageY - 28) + "px");    
+          .style("top", (d3.event.pageY - 28) + "px");
+
+    d3.select(this).style("stroke-width", 5);
 
     })
     .on("mouseout", function(d){
@@ -382,6 +385,8 @@ var initializePyramind = function(deathData)
       div.transition()
           .duration(500)
           .style("opacity", 0);
+
+      d3.select(this).style("stroke-width", 1);
     });
 
 rightBarGroup.selectAll('.barRight')
@@ -404,12 +409,16 @@ rightBarGroup.selectAll('.barRight')
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
 
+      d3.select(this).style("stroke-width", 5);
+
     })
     .on("mouseout", function(d){
 
       div.transition()
           .duration(500)
           .style("opacity", 0);
+
+      d3.select(this).style("stroke-width", 1);
     });
 
     svg.append("text")
@@ -537,6 +546,7 @@ middle: 35
 
   var leftBarGroup = d3.select(".leftBarGroup");
   var rightBarGroup = d3.select(".rightBarGroup");
+  var div = d3.select(".pyramidTooltip");
 
   leftBarGroup.selectAll('rect')
 .data(deathDemographicsMale)
@@ -560,7 +570,27 @@ middle: 35
       .attr('height', yScale.bandwidth())
       .attr("fill", "RoyalBlue")
       .style("stroke", "black")
-      .style("stroke-width", 1);
+      .style("stroke-width", 1)
+      .on("mouseover", function(d){
+        div.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+        div .html("Crude Death Rate: "+(d["Crude Rate"]))
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+
+        d3.select(this).style("stroke-width", 5);
+
+      })
+      .on("mouseout", function(d){
+
+        div.transition()
+            .duration(500)
+            .style("opacity", 0);
+
+        d3.select(this).style("stroke-width", 1);
+      });
 
       rightBarGroup.selectAll('rect')
     .data(deathDemographicsFemale)
@@ -584,7 +614,27 @@ middle: 35
       .attr('height', yScale.bandwidth())
       .attr("fill", "DarkMagenta")
       .style("stroke", "black")
-      .style("stroke-width", 1);
+      .style("stroke-width", 1)
+      .on("mouseover", function(d){
+        div.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+        div .html("Crude Death Rate: "+(d["Crude Rate"]))
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+
+        d3.select(this).style("stroke-width", 5);
+
+      })
+      .on("mouseout", function(d){
+
+        div.transition()
+            .duration(500)
+            .style("opacity", 0);
+
+        d3.select(this).style("stroke-width", 1);
+      });
 
       d3.select(".pyramidLabel")
         .transition()
@@ -636,7 +686,7 @@ var div = d3.select(".tooltip");
   svg.selectAll("#states")
       .selectAll("path")
       .attr("stroke", "LimeGreen")
-      .attr("stroke-width", "1px")
+      //.attr("stroke-width", "1px")
       .on("click", function(d){selectedState = d.properties.name;
          updatePyramid(deathData, cause, d.properties.name);
          d3.selectAll(".statePath").transition()
