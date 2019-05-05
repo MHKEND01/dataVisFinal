@@ -64,11 +64,42 @@ var initializeMap = function(geoData, stateData, deathData)
                   "#6b5b95","#878f99","#52d19d","#7e4a35" ,"#587e76",
                   "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
 
+  var div = d3.select("body").append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
+
   states.append("path")
         .attr("d", stateGenerator)
-        .attr("stroke", "red")
+        .attr("stroke", "black")
+        .attr("class", "statePath")
         .attr("fill", function(d){return colorGenerator(d.properties.cause)})
-        .on("click", function(d){selectedState = d.properties.name;updatePyramid(deathData, "Heart disease", d.properties.name)});
+        .on("click", function(d){selectedState = d.properties.name;
+                                updatePyramid(deathData, "Heart disease", d.properties.name);
+                                  d3.selectAll(".statePath").transition()
+                                                            .duration(200)
+                                                            .attr("stroke-width", "1px")
+                                                            .attr("stroke", "black");
+                                  d3.select(this).transition()
+                                                            .duration(200)
+                                                            .attr("stroke-width", "5px");})
+      .on("mouseover", function(d){
+
+        div.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+        div .html("Most Disproportionate Cause: "+(d.properties.cause))
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+
+      })
+      .on("mouseout", function(d){
+
+        div.transition()
+            .duration(500)
+            .style("opacity", 0);
+      });
+
 
         svg.append("text")
                 .attr("x", 70 +(screen.width / 2))
@@ -126,23 +157,50 @@ var resetMap = function(geoData, stateData, deathData)
                   "#6b5b95","#878f99","#52d19d","#7e4a35" ,"#587e76",
                   "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
 
+  var div = d3.select(".tooltip");
   svg.selectAll("#states")
       .data(geoData.features)
       .enter()
       .transition()
       .duration(200)
       .selectAll("path")
-      .attr("fill", function(d){return colorGenerator(d.properties.cause)})
+      .attr("stroke", "black")
+      .attr("fill", function(d){return colorGenerator(d.properties.cause)});
+
+      d3.selectAll(".statePath")
+      .on("click", function(d){selectedState = d.properties.name;
+                              updatePyramid(deathData, "Heart disease", d.properties.name);
+                                d3.selectAll(".statePath").transition()
+                                                          .duration(200)
+                                                          .attr("stroke-width", "1px")
+                                                          .attr("stroke", "black");
+                                d3.select(this).transition()
+                                                          .duration(200)
+                                                          .attr("stroke-width", "5px");})
+      .on("mouseover", function(d){
+
+        div.transition()
+            .duration(200)
+            .style("opacity", .9);
+
+        div .html("Most Disproportionate Cause: "+(d.properties.cause))
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+
+      })
+      .on("mouseout", function(d){
+
+        div.transition()
+            .duration(500)
+            .style("opacity", 0);
+      });
+
 
       d3.select(".mapLabel")
         .transition()
         .duration(200)
-        .text("Cause of Death which Most Disproportionately Impacts Each State");   
+        .text("Cause of Death which Most Disproportionately Impacts Each State");
 
-
-    // svg.selectAll("#states")
-    //     .selectAll("path")
-    //     .on("click", function(d){selectedState = d.properties.name; updatePyramid(deathData, cause, d.properties.name);});
 }
 
 var setUpCauseLabels = function(geoData, stateData, deathData)
@@ -202,9 +260,9 @@ var initializePyramind = function(deathData)
       height = 300;
 
     var margin = {
-  top: 20,
+  top: 40,
   right: 10,
-  bottom: 40,
+  bottom: 60,
   left: 10,
   middle: 35
 };
@@ -294,6 +352,10 @@ var initializePyramind = function(deathData)
     .selectAll('text')
     .attr("transform", "rotate(-90) translate(-20,-10)");
 
+    var div = d3.select("body").append("div")
+        .attr("class", "pyramidTooltip")
+        .style("opacity", 0);
+
     leftBarGroup.selectAll('.barLeft')
   .data(deathDemographicsMale)
   .enter().append('rect')
@@ -304,7 +366,23 @@ var initializePyramind = function(deathData)
     .attr('height', yScale.bandwidth())
     .attr("fill", "RoyalBlue")
     .style("stroke", "black")
-    .style("stroke-width", 1);
+    .style("stroke-width", 1)
+    .on("mouseover", function(d){
+      div.transition()
+          .duration(200)
+          .style("opacity", .9);
+
+      div .html("Crude Death Rate: "+(d["Crude Rate"]))
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");    
+
+    })
+    .on("mouseout", function(d){
+
+      div.transition()
+          .duration(500)
+          .style("opacity", 0);
+    });
 
 rightBarGroup.selectAll('.barRight')
   .data(deathDemographicsFemale)
@@ -316,7 +394,63 @@ rightBarGroup.selectAll('.barRight')
     .attr('height', yScale.bandwidth())
     .attr("fill", "DarkMagenta")
     .style("stroke", "black")
-    .style("stroke-width", 1);
+    .style("stroke-width", 1)
+    .on("mouseover", function(d){
+      div.transition()
+          .duration(200)
+          .style("opacity", .9);
+
+      div .html("Crude Death Rate: "+(d["Crude Rate"]))
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+
+    })
+    .on("mouseout", function(d){
+
+      div.transition()
+          .duration(500)
+          .style("opacity", 0);
+    });
+
+    svg.append("text")
+            .attr("x",(width / 2))
+            .attr("y", (height) + (margin.bottom*0.9))
+            .attr("text-anchor", "middle")
+            .attr("class", "pyramidAxisLabel")
+            .style("font-size", "20px")
+            .style("text-decoration", "bold")
+            .style("text-decoration", "underline")
+            .text("Crude Death Rate (deaths per 100,000) individuals)");
+
+    svg.append("text")
+            .attr("x",(width *0.08))
+            .attr("y", (height -20))
+            .attr("text-anchor", "middle")
+            .attr("class", "maleLabel")
+            .style("font-size", "20px")
+            .style("text-decoration", "bold")
+            .style("text-decoration", "underline")
+            .text("Males");
+
+    svg.append("text")
+            .attr("x",(width *0.92))
+            .attr("y", (height -20))
+            .attr("text-anchor", "middle")
+            .attr("class", "femaleLabel")
+            .style("font-size", "20px")
+            .style("text-decoration", "bold")
+            .style("text-decoration", "underline")
+            .text("Females");
+
+    svg.append("text")
+            .attr("x",(width *0.5))
+            .attr("y", (-15))
+            .attr("text-anchor", "middle")
+            .attr("class", "pyramidLabel")
+            .style("font-size", "20px")
+            .style("text-decoration", "bold")
+            .style("text-decoration", "underline")
+            .text("Death Distribution for Heart Disease in Alabama");
 
 
 }
@@ -452,6 +586,10 @@ middle: 35
       .style("stroke", "black")
       .style("stroke-width", 1);
 
+      d3.select(".pyramidLabel")
+        .transition()
+        .duration(200)
+        .text("Death Distribution for "+cause+" in "+selectedState);
 }
 
 var updateMap = function(geoData, stateData, deathData, cause)
@@ -493,10 +631,37 @@ svg.selectAll("#states")
     .selectAll("path")
     .attr("fill", function(d){return colorGenerator(d.properties.crudeRate)})
 
+var div = d3.select(".tooltip");
 
   svg.selectAll("#states")
       .selectAll("path")
-      .on("click", function(d){selectedState = d.properties.name; updatePyramid(deathData, cause, d.properties.name);});
+      .attr("stroke", "LimeGreen")
+      .attr("stroke-width", "1px")
+      .on("click", function(d){selectedState = d.properties.name;
+         updatePyramid(deathData, cause, d.properties.name);
+         d3.selectAll(".statePath").transition()
+                                   .duration(200)
+                                   .attr("stroke-width", "1px");
+         d3.select(this).transition()
+                                   .duration(200)
+                                   .attr("stroke-width", "5px");})
+     .on("mouseover", function(d){
+
+       div.transition()
+           .duration(200)
+           .style("opacity", .9);
+
+       div .html("State Crude Death Rate: "+(d.properties.crudeRate))
+           .style("left", (d3.event.pageX) + "px")
+           .style("top", (d3.event.pageY - 28) + "px");
+
+     })
+     .on("mouseout", function(d){
+
+       div.transition()
+           .duration(500)
+           .style("opacity", 0);
+     });
 
   d3.select(".mapLabel")
     .transition()
