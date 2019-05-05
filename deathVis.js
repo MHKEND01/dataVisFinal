@@ -226,6 +226,9 @@ var setUpCauseLabels = function(geoData, stateData, deathData)
                   "#6b5b95","#878f99","#52d19d","#7e4a35" ,"#587e76",
                   "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
 
+    var causeListForBetterLabelOrder = ["Suicide", "Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
+              "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents",];
+
   d3.select(".causeLabels")
     .append("g")
     .attr("class", "causeLabel")
@@ -238,7 +241,7 @@ var setUpCauseLabels = function(geoData, stateData, deathData)
     .on("mouseout", function(d){
       d3.select(this).style("border", "5px solid grey");
 })
-    causeList.forEach(function(cause)
+    causeListForBetterLabelOrder.forEach(function(cause)
     {
       d3.select(".causeLabels")
         .append("g")
