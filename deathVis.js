@@ -77,7 +77,7 @@ var initializeMap = function(geoData, stateData, deathData)
         .attr("id", function(d){return d.properties.name;})
         .attr("fill", function(d){return colorGenerator(d.properties.cause)})
         .on("click", function(d){selectedState = d.properties.name;
-                                updatePyramid(deathData, "Heart disease", d.properties.name);
+                                updatePyramid(deathData, "Suicide", d.properties.name);
                                   d3.selectAll(".statePath").transition()
                                                             .duration(200)
                                                             .attr("stroke-width", "1px")
@@ -117,6 +117,7 @@ var initializeMap = function(geoData, stateData, deathData)
 
         d3.select("#Alabama")
           .attr("stroke-width", "5px");
+
 
 }
 
@@ -253,7 +254,7 @@ var setUpCauseLabels = function(geoData, stateData, deathData)
         });
   }
 
-var initializePyramind = function(deathData, overallData)
+var initializePyramind = function(deathData, overallData) //Also sets up map instruction label
 {
     deathDemographicsMale = getDeathDemographics(deathData, "Suicide", "Alabama", "Male");
     deathDemographicsFemale = getDeathDemographics(deathData, "Suicide", "Alabama", "Female");
@@ -464,10 +465,10 @@ rightBarGroup.selectAll('.barRight')
     .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
     .attr('width', function(d) { return xScaleOverall(d['Crude Rate']);})
     .attr('height', yScale.bandwidth())
-    .attr("fill", "grey")
+    .attr("fill", "none")
     .style("stroke", "black")
     .style("stroke-width", 1)
-    .style("opacity", 0.4);
+    .style("opacity", 0.5);
 
     rightBarGroupOverall.selectAll(".overallBarright")
     .data(overallListFemale)
@@ -478,10 +479,10 @@ rightBarGroup.selectAll('.barRight')
     .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
     .attr('width', function(d) { return xScaleOverall(d['Crude Rate']);})
     .attr('height', yScale.bandwidth())
-    .attr("fill", "grey")
+    .attr("fill", "none")
     .style("stroke", "black")
     .style("stroke-width", 1)
-    .style("opacity", 0.4);
+    .style("opacity", 0.5);
 
     svg.append("text")
             .attr("x",(width / 2))
@@ -523,6 +524,38 @@ rightBarGroup.selectAll('.barRight')
             .style("text-decoration", "underline")
             .text("Death Distribution for Suicide in Alabama");
 
+  var pyramidDescriptions = d3.select("body")
+                              .append("g")
+                              .attr("class", "pyramidDescriptions");
+  pyramidDescriptions.append("text")
+          .attr("text-anchor", "middle")
+          .attr("class", "pyramidWarning")
+          .style("font-size", "18px")
+          .style("text-decoration", "bold")
+          .style("color", "red")
+          .text("*Please note the x-scales change between cause distributions. Use this chart to compare distribution SHAPES, not magnitudes.");
+
+  var overallPyramidDescriptions = d3.select("body")
+                              .append("g")
+                              .attr("class", "overallPyramidDescriptions");
+
+    overallPyramidDescriptions.append("text")
+            .attr("text-anchor", "middle")
+            .attr("class", "pyramidOverallLabel")
+            .style("font-size", "15px")
+            .style("text-decoration", "bold")
+            .text("Clear bars: Death distribution shape for ALL causes in ALL states");
+
+    var mapDescriptions = d3.select("body")
+                                .append("g")
+                                .attr("class", "mapDescriptions");
+
+      mapDescriptions.append("text")
+              .attr("text-anchor", "middle")
+              .attr("class", "mapDescription")
+              .style("font-size", "18px")
+              .style("text-decoration", "bold")
+              .text("Click on a state to show it's death distribution!");
 
 }
 
@@ -748,7 +781,6 @@ var div = d3.select(".tooltip");
   svg.selectAll("#states")
       .selectAll("path")
       .attr("stroke", "LimeGreen")
-      //.attr("stroke-width", "1px")
       .on("click", function(d){selectedState = d.properties.name;
          updatePyramid(deathData, cause, d.properties.name);
          d3.selectAll(".statePath").transition()
@@ -763,7 +795,7 @@ var div = d3.select(".tooltip");
            .duration(200)
            .style("opacity", .9);
 
-       div .html("State Crude Death Rate: "+(d.properties.crudeRate))
+       div .html("State deaths per 100,000 people: "+(d.properties.crudeRate))
            .style("left", (d3.event.pageX) + "px")
            .style("top", (d3.event.pageY - 28) + "px");
 

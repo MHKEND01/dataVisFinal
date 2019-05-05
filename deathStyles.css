@@ -63,3 +63,25 @@ div.pyramidTooltip {
     border-radius: 8px;
     pointer-events: none;
 }
+
+.pyramidDescriptions{
+  float: left;
+  position: relative;
+}
+
+.overallPyramidDescriptions{
+  position: relative;
+  top:600px;
+  right:190px;
+  color: white;
+  background-color: grey;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.mapDescriptions{
+  position: relative;
+  bottom:500px;
+  right:270px;
+  float: left;
+}
