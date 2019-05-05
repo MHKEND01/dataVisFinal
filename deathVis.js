@@ -12,27 +12,26 @@ Promise.all([geoP, stateP, deathP])
   var stateData = values[1];
   var deathData = values[2];
   initializeMap(geoData, stateData, deathData);
-
+  setUpCauseLabels(geoData, stateData, deathData);
   initializePyramind(deathData);
+//console.log(getMostDisproportionateCauseForAllStates(stateData));
 })
 
 var initializeMap = function(geoData, stateData, deathData)
 {
-  var causeData = getDataForCause(stateData, "Heart disease");
-
-  var maxValue = d3.max(causeData, function(d){return +d["Crude Rate"]})
-
+  var worstData = getMostDisproportionateCauseForAllStates(stateData);
 
   var stateDict = {};
 
-  causeData.forEach(function(state)
+  worstData.forEach(function(state)
 {
-  stateDict[state.State] = state;
+  stateDict[state.State] = state.cause;
 });
+console.log(stateDict);
 
   geoData.features.forEach(function(state)
 {
-  state.properties.crudeRate = stateDict[state.properties.name]["Crude Rate"];
+  state.properties.cause = stateDict[state.properties.name];
 });
 
 
@@ -57,16 +56,26 @@ var initializeMap = function(geoData, stateData, deathData)
                   .enter()
                   .append("g")
 
-var colorGenerator = d3.scaleLinear()
-                .range(["white", "black"])
-                .domain([0,maxValue]);
+  var causeList = ["Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
+                  "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents", "Suicide"];
+
+
+  var colorGenerator = d3.scaleOrdinal()
+                  .domain(causeList)
+                  .range(["#b9936c","#82b74b","#034f84","#50394c",
+                  "#6b5b95","#878f99","#563f46","#7e4a35" ,"#587e76",
+                  "#c83349","#454140","#FBBC05","#4285F4","#EA4335","#34A853",]);
 
   states.append("path")
         .attr("d", stateGenerator)
         .attr("stroke", "red")
-        .attr("fill", function(d){return colorGenerator(d.properties.crudeRate)})
+        .attr("fill", function(d){return colorGenerator(d.properties.cause)})
         .on("click", function(d){selectedState = d.properties.name;updatePyramid(deathData, "Heart disease", d.properties.name)});
 
+}
+
+var setUpCauseLabels = function(geoData, stateData, deathData)
+{
   var causeList = ["Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
                   "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents", "Suicide"];
 
@@ -81,9 +90,7 @@ var colorGenerator = d3.scaleLinear()
         .attr("class", "causeLabel")
         .text(cause)
         .on("mouseover", function(d){updateMap(geoData, stateData, deathData, cause);updatePyramid(deathData, cause, selectedState);})
-        //.append("br")
     });
-
 }
 
 var initializePyramind = function(deathData)
@@ -350,7 +357,6 @@ middle: 35
       .style("stroke", "black")
       .style("stroke-width", 1);
 
-  console.log(deathDemographicsFemale);
 }
 
 var updateMap = function(geoData, stateData, deathData, cause)
@@ -425,4 +431,57 @@ var getDeathDemographics = function(deathData, cause, state, gender)
     }
   });
   return deathDemographics;
+}
+
+var getZscoreForStateAndCause = function(causeData, state)
+{
+  var mean = d3.mean(causeData, function(d){return d["Crude Rate"];});
+  var standDev = d3.deviation(causeData, function(d){return d["Crude Rate"];});
+  var stateVal = "";
+  causeData.forEach(function(d){
+    if(d["State"] === state)
+    {
+      stateVal = d["Crude Rate"];
+    }
+  });
+  var zScore =((stateVal-mean)/standDev);
+  return zScore
+
+}
+
+var getMostDisproportionateCauseForState = function(stateData, state)
+{
+  var causeList = ["Septicemia", "Cancer", "Diabetes", "Parkinson disease", "Alzheimer disease", "Heart disease", "High blood pressure", "Stroke", "Influenza and Pneumonia",
+                  "Chronic lower respiratory diseases", "Pneumonitis due to solids and liquids", "Liver disease", "Kidney disease", "Accidents", "Suicide"];
+
+  var worstScore = 0;
+  var tempScore = 0;
+  var worstCause = "";
+  var causeData = [];
+
+  causeList.forEach(function(d){
+    causeData = getDataForCause(stateData, d);
+    tempScore = getZscoreForStateAndCause(causeData, state);
+    if(tempScore > worstScore)
+    {
+      worstScore = tempScore;
+      worstCause = d;
+    }
+  });
+  return  worstCause;
+}
+
+var getMostDisproportionateCauseForAllStates = function(stateData)
+{
+  var states = ['Alabama','Alaska', 'Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
+
+  var worstCauseData = [];
+  var cause = "";
+
+  states.forEach(function(d){
+    cause = getMostDisproportionateCauseForState(stateData, d);
+    worstCauseData.push({State: d, cause: cause});
+  });
+  return worstCauseData;
+
 }
