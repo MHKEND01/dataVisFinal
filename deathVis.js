@@ -302,6 +302,10 @@ middle: 35
   var leftBarGroup = d3.select(".leftBarGroup");
   var rightBarGroup = d3.select(".rightBarGroup");
 
+  leftBarGroup.selectAll('rect')
+.data(deathDemographicsMale)
+.exit().remove();
+
       leftBarGroup.selectAll('rect')
     .data(deathDemographicsMale)
     .transition()
@@ -310,6 +314,22 @@ middle: 35
       .attr('width', function(d) { return xScale(d['Crude Rate']);})
       .attr('height', yScale.bandwidth());
 
+      leftBarGroup.selectAll('.barLeft')
+    .data(deathDemographicsMale)
+    .enter().append('rect')
+      .attr('class', 'barLeft')
+      .attr('x', 0)
+      .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
+      .attr('width', function(d) { return xScale(d['Crude Rate']);})
+      .attr('height', yScale.bandwidth())
+      .attr("fill", "RoyalBlue")
+      .style("stroke", "black")
+      .style("stroke-width", 1);
+
+      rightBarGroup.selectAll('rect')
+    .data(deathDemographicsFemale)
+    .exit().remove();
+
   rightBarGroup.selectAll('rect')
     .data(deathDemographicsFemale)
     .transition()
@@ -317,6 +337,18 @@ middle: 35
       .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
       .attr('width', function(d) { return xScale(d['Crude Rate']); })
       .attr('height', yScale.bandwidth());
+
+      rightBarGroup.selectAll('.barRight')
+    .data(deathDemographicsFemale)
+    .enter().append('rect')
+      .attr('class', 'barrightt')
+      .attr('x', 0)
+      .attr('y', function(d) { return yScale(d['Ten-Year Age Groups']); })
+      .attr('width', function(d) { return xScale(d['Crude Rate']);})
+      .attr('height', yScale.bandwidth())
+      .attr("fill", "DarkMagenta")
+      .style("stroke", "black")
+      .style("stroke-width", 1);
 
   console.log(deathDemographicsFemale);
 }
