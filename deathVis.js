@@ -429,7 +429,7 @@ rightBarGroup.selectAll('.barRight')
             .style("font-size", "20px")
             .style("text-decoration", "bold")
             .style("text-decoration", "underline")
-            .text("Crude Death Rate (deaths per 100,000) individuals)");
+            .text("Crude Death Rate (deaths per 100,000 individuals)");
 
     svg.append("text")
             .attr("x",(width *0.08))
