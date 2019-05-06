@@ -556,7 +556,7 @@ rightBarGroup.selectAll('.barRight')
       mapDescriptions.append("text")
               .attr("text-anchor", "middle")
               .attr("class", "mapDescription")
-              .style("font-size", "18px")
+              .style("font-size", "17px")
               .style("text-decoration", "bold")
               .text("Click on a state to show it's death distribution!");
 
