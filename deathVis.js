@@ -107,7 +107,7 @@ var initializeMap = function(geoData, stateData, deathData)
 
         svg.append("text")
                 .attr("x", 70 +(screen.width / 2))
-                .attr("y", (screen.height / 15))
+                .attr("y", (screen.height* 0.05))
                 .attr("text-anchor", "middle")
                 .attr("class", "mapLabel")
                 .style("font-size", "20px")
@@ -276,7 +276,7 @@ d3.max(overallListFemale, function(d) { return +d["Crude Rate"]; })
 );
 
     var width = 600,
-      height = 300;
+      height = 180;
 
     var margin = {
   top: 40,
@@ -574,7 +574,7 @@ d3.max(deathDemographicsFemale, function(d) { return +d["Crude Rate"]; })
 
 
   var width = 600,
-    height = 300;
+    height = 180;
 
   var margin = {
 top: 20,

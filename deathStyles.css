@@ -19,11 +19,11 @@ body
 {;
   float: left;
   clear: left;
-  margin:5px;
+  margin:4px;
   background-color: grey; /* Green */
   border: none;
   color: white;
-  padding: 8px 24px;
+  padding: 5px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -82,6 +82,6 @@ div.pyramidTooltip {
 .mapDescriptions{
   position: relative;
   bottom:400px;
-  right:300px;
+  right:280px;
   float: left;
 }
