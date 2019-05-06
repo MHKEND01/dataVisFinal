@@ -12,7 +12,7 @@ body
 {
   position: relative;
   float:right;
-  right:200px;
+  right:0px;
 }
 
 .causeLabel
@@ -81,7 +81,7 @@ div.pyramidTooltip {
 
 .mapDescriptions{
   position: relative;
-  bottom:500px;
-  right:270px;
+  bottom:400px;
+  right:300px;
   float: left;
 }

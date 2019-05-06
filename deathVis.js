@@ -35,7 +35,7 @@ var initializeMap = function(geoData, stateData, deathData)
 });
 
 
-  var screen = {width:770, height:500}
+  var screen = {width:770, height:480}
 
   var svg = d3.select("body")
               .append("svg")
